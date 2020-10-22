@@ -1,3 +1,137 @@
-body {
-    background-color: #1f1f1f;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+@font-face {
+    src: url(../fonts/New\ Cicle\ Fina.ttf);
+    font-family: "newcicle";
+}
+
+@font-face {
+    src: url(../fonts/New\ Cicle\ Gordita.ttf);
+    font-family: "newcicle-bold";
+}
+
+.active {}
+
+.top-container-c {
+    width: 100%;
+}
+
+.top-wrapper-c {
+    max-width: 1440px;
+    margin: auto;
+    background: #f8f9fa !important;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+}
+
+.bottom-container-c {
+    width: 100%;
+    background: #343a40;
+}
+
+.bottom-wrapper-c {
+    max-width: 1440px;
+    margin: auto;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+}
+
+.navbar .top {
+    min-height: 115px;
+    /* background-color: rosybrown; */
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    max-height: 100px;
+    top: 0;
+    left: 0;
+    padding: 10px 0px 0px 10px;
+    position: absolute;
+}
+
+.vibes {
+    margin: auto;
+    /* justify-content: center; */
+    letter-spacing: 10px;
+    font-family: "newcicle-bold";
+}
+
+.vibes h1 {
+    font-size: 50px;
+}
+
+.vibes p {
+    font-family: "newcicle-bold";
+    position: relative;
+    float: right;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+@media(max-width: 1295px) {
+    .nav-item {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 1154px) {
+    .nav-item {
+        padding: 0px;
+    }
+}
+
+@media(max-width: 600px) {
+    .navbar-brand {
+        margin: auto;
+        width: 100%;
+    }
+    .navbar-brand img {
+        padding: 0;
+        margin: auto;
+        position: relative;
+        display: flex;
+    }
+    .nav-item .active {
+        background: rgba(224, 255, 255, 0.562);
+    }
+    .vibes h1 span {
+        text-align: center;
+        font-family: "newcicle-bold";
+        /* position: relative; */
+        letter-spacing: 15px;
+        /* margin: auto; */
+        width: 100%;
+        font-size: 30px;
+    }
+    @media(max-width: 391px) {
+        .vibes {}
+        .vibes h1 {
+            float: left;
+            width: 50%;
+        }
+        .vibes p {
+            position: relative;
+            margin: 0;
+            float: left;
+            width: 50%;
+            font-size: 40px;
+            bottom: -60px;
+        }
+    }
 }
