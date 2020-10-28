@@ -40,8 +40,15 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                           <ul class="navbar-nav">
-                            <li class="nav-item active-c">
-                              <a class="nav-link" href="#">All releases</a>
+                            <li class="nav-item dropdown active-c">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Releases
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">All Releases</a>
+                                    <a class="dropdown-item" href="#">LP</a>
+                                    <a class="dropdown-item" href="#">Album</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Submit Track</a>
@@ -59,7 +66,7 @@
                               <a class="nav-link" href="#">Our Team</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Contact With Us</a>
+                              <a class="nav-link" href="#">Contact Us</a>
                             </li>
                           </ul>
                         </div>
@@ -85,9 +92,35 @@
     <!-- Your custom scripts (optional) -->
     <script type="text/javascript" src="{{asset('js/style.js')}}"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{asset('css/addons/datatables.min.css')}}"/>
-
     <script type="text/javascript" src="{{asset('js/addons/pdfmake.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/addons/vfs_fonts.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}}"></script>
+
+    {{-- JS CUSTOM --}}
+    <script>
+        $(document).ready(function(){
+            // $('.dropdown').hover(function(){
+            //     $(this).addClass('show');
+            //     $('.dropdown-menu').addClass('show');
+            // })
+
+            // $('dropdown').mouseenter(function(){
+            //
+            // })
+            // $('dropdown').mouseleave(function(){
+            //     $(this).removeClass('show');
+            // })
+            // $('.dropdown').hover(function(){
+            //     $(this).addClass('show');
+            //     $('.dropdown-toggle').attr('aria-expanded', 'true');
+            //     ('.dropdown-menu').addClass('show')
+            // })
+            // $('.dropdown').mouseleave(function(){
+            //     $(this).removeClass('show');
+            //     $('.dropdown-toggle').attr('aria-expanded', 'false');
+            //     ('.dropdown-menu').removeClass('show')
+            // })
+        })
+    </script>
+
 </html>
