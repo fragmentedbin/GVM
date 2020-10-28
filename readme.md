@@ -1,2 +1,2 @@
 # GVM
-Masih Dalam Pengerjaan. Jangan DIKOMENIN APA2!!!!
+Masih Dalam Pengerjaan. Jangan bawel!!!!
