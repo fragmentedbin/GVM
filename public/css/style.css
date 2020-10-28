@@ -108,6 +108,7 @@ h1 {
 .dropdown-menu {
     margin-top: 0;
     border-radius: 0;
+    border: 0;
 }
 
 .dropdown-item {
@@ -119,8 +120,10 @@ h1 {
     background-color: rgba(0, 0, 0, 0.26);
 }
 
+.dropdown-item.active,
 .dropdown-item:active {
     color: #000000;
+    text-decoration: none;
     background-color: rgba(36, 36, 36, 0.26);
 }
 
@@ -139,39 +142,30 @@ h1 {
     }
 }
 
+.slideIn-menu {
+    -webkit-animation-name: 'slideIn-menu';
+    animation-name: 'slideIn-menu';
+}
+
+
+/* .dropdown_menu-2 for num in (1..5) .dropdown_item- {
+    num
+} */
+
 @keyframes slideIn-menu {
     0% {
-        transform: translateX(1rem);
         opacity: 0;
+        /* height: 0%; */
+        /* transform: rotateX(0deg); */
     }
+    /* 50% {
+        transform: rotateX(-20deg);
+    } */
     100% {
-        transform: translateX(0rem);
         opacity: 1;
+        /* height: 100%; */
+        /* transform: rotateX(1deg); */
     }
-    0% {
-        transform: translateX(1rem);
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes slideIn-menu {
-    0% {
-        -webkit-transform: transform;
-        -webkit-opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        -webkit-opacity: 1;
-    }
-    0% {
-        -webkit-transform: translateX(1rem);
-        -webkit-opacity: 0;
-    }
-}
-
-.slideIn-menu {
-    -webkit-animation-name: slideIn-menu;
-    animation-name: slideIn-menu;
 }
 
 
@@ -186,12 +180,78 @@ h1 {
 .wrapper-content {
     max-width: 1440px;
     margin: auto;
-    height: 509px;
     background-image: linear-gradient(to top, #2b2b2b 0%, #000000 100%);
     /* background: #1f1f1f !important; */
     /* box-sizing: border-box; */
     /* overflow: hidden; */
     color: #fff;
+}
+
+.section1 {
+    padding: 15px;
+    margin-bottom: 20px;
+    /* height: 509px; */
+}
+
+.img-slider {
+    margin: 0px 0px;
+}
+
+.sub-section1-1 {
+    /* float: left; */
+    width: 55%;
+}
+
+.carousel-inner {
+    overflow: show;
+    overflow-x: ;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 300px;
+    right: auto;
+    width: 50%;
+    height: 100%;
+    background-color: #428bca;
+    opacity: 0.8;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* .sub-section1-2 {
+    float: left;
+    width: 45%;
+} */
+
+
+/* .section1:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.carousel {
+    /* margin: auto; */
+    max-width: 700px;
+}
+
+.carousel-inner {
+    margin: auto;
+    max-width: 400px;
+}
+
+.carousel-control-prev {
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.carousel-control-next {
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.container .overlay {
+    z-index: 1000;
 }
 
 
