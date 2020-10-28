@@ -27,19 +27,20 @@ h1 {
 
 .top-container-c {
     width: 100%;
+    background: #000000 !important;
 }
 
 .top-wrapper-c {
     max-width: 1440px;
     margin: auto;
-    background: #f8f9fa !important;
+    background: #000000 !important;
     /* box-sizing: border-box; */
     /* overflow: hidden; */
 }
 
 .bottom-container-c {
     width: 100%;
-    background: #343a40;
+    background: #000000;
 }
 
 .bottom-wrapper-c {
@@ -64,13 +65,17 @@ h1 {
     max-height: 100px;
     top: 0;
     left: 0;
-    padding: 10px 0px 0px 10px;
+    /* Safari/Chrome */
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    padding: 15px 0px 0px 15px;
     position: absolute;
 }
 
 .vibes {
     margin: auto;
     /* justify-content: center; */
+    color: #fff;
     letter-spacing: 10px;
     font-family: "newcicle-bold";
 }
@@ -136,15 +141,15 @@ h1 {
 
 @keyframes slideIn-menu {
     0% {
-        transform: translateY(1rem);
+        transform: translateX(1rem);
         opacity: 0;
     }
     100% {
-        transform: translateY(0rem);
+        transform: translateX(0rem);
         opacity: 1;
     }
     0% {
-        transform: translateY(1rem);
+        transform: translateX(1rem);
         opacity: 0;
     }
 }
@@ -155,11 +160,11 @@ h1 {
         -webkit-opacity: 0;
     }
     100% {
-        -webkit-transform: translateY(0);
+        -webkit-transform: translateX(0);
         -webkit-opacity: 1;
     }
     0% {
-        -webkit-transform: translateY(1rem);
+        -webkit-transform: translateX(1rem);
         -webkit-opacity: 0;
     }
 }
@@ -174,14 +179,16 @@ h1 {
 
 .container-content {
     width: 100%;
-    background: #1f1f1f;
+    /* background: #1f1f1f; */
+    background-image: linear-gradient(to top, #2b2b2b 0%, #000000 100%);
 }
 
 .wrapper-content {
     max-width: 1440px;
     margin: auto;
     height: 509px;
-    background: #1f1f1f !important;
+    background-image: linear-gradient(to top, #2b2b2b 0%, #000000 100%);
+    /* background: #1f1f1f !important; */
     /* box-sizing: border-box; */
     /* overflow: hidden; */
     color: #fff;
@@ -222,6 +229,12 @@ h1 {
         padding: 20px 20px;
     } */
 }
+
+
+/*
+
+background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+*/
 
 @media(max-width: 600px) {
     .navbar-brand {
