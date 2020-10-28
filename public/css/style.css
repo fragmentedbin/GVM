@@ -194,29 +194,12 @@ h1 {
 }
 
 .img-slider {
-    margin: 0px 0px;
+    width: 100%;
 }
 
 .sub-section1-1 {
     /* float: left; */
     width: 55%;
-}
-
-.carousel-inner {
-    overflow: show;
-    overflow-x: ;
-}
-
-.carousel-caption {
-    position: absolute;
-    left: 300px;
-    right: auto;
-    width: 50%;
-    height: 100%;
-    background-color: #428bca;
-    opacity: 0.8;
-    bottom: 0;
-    right: 0;
 }
 
 
@@ -240,6 +223,22 @@ h1 {
 .carousel-inner {
     margin: auto;
     max-width: 400px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 20rem;
+    right: auto;
+    width: 50%;
+    height: 100%;
+    background-color: #428bca;
+    opacity: 0.8;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-item a {
+    overflow: hidden;
 }
 
 .carousel-control-prev {
@@ -274,7 +273,7 @@ h1 {
         padding: 10px 0px;
     }
     .navbar-toggler {
-        margin-left: 10px;
+        margin-left: 15px;
     }
     .navbar-nav {
         padding: 10px 0px;

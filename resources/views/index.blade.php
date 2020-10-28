@@ -89,43 +89,49 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="{{asset('img/cover/anntypi-love.jpg')}}" alt="First slide">
+                                    <a href=""><img class="d-block w-100" src="{{asset('img/cover/anntypi-love.jpg')}}" alt="First slide"></a>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>1</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>1</h5>
                                         <p>...</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt="First slide">
+                                    <a href=""><img class="d-block w-100" src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt="First slide"></a>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>2</h5>
                                         <p>...</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="{{asset('img/cover/fajra-letsgo.jpg')}}" alt="First slide">
+                                    <a href=""><img class="d-block w-100" src="{{asset('img/cover/fajra-letsgo.jpg')}}" alt="First slide"></a>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>3</h5>
                                         <p>...</p>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#sec1-carousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#sec1-carousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                        <a class="carousel-control-prev" href="#sec1-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#sec1-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
-                {{-- <div class="sub-section1-2">
+            </div>
+            {{-- <div class="sub-section1-2">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quo molestias magnam incidunt reiciendis. Eveniet temporibus doloribus fuga doloremque. Laudantium vel placeat fugiat ducimus ipsum! Voluptate maxime ut fuga doloremque.</p>
                         </div> --}}
-            </div>
         </div>
+    </div>
     </div>
 
 </body>
@@ -169,6 +175,7 @@
         //     $('.dropdown-toggle').attr('aria-expanded', 'false');
         //     ('.dropdown-menu').removeClass('show')
         // })
+
     })
 </script>
 
