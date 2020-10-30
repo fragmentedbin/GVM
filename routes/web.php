@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test');
 });
+
+Route::get('/profileGvm', function () {
+    return view('profileGvm');
+});

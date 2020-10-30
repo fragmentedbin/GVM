@@ -80,6 +80,11 @@ h1 {
     font-family: "newcicle-bold";
 }
 
+.vibes a {
+    color: white;
+    text-decoration: none;
+}
+
 .vibes h1 {
     font-size: 50px;
     font-weight: bold;
@@ -188,69 +193,28 @@ h1 {
 }
 
 .section1 {
-    padding: 15px;
+    padding: 20px 20px;
     margin-bottom: 20px;
     /* height: 509px; */
 }
 
-.img-slider {
+.card-body {
+    color: black;
+}
+
+.card-c {
+    width: 18rem;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: ;
+}
+
+.description-sec {
     width: 100%;
-}
-
-.sub-section1-1 {
-    /* float: left; */
-    width: 55%;
-}
-
-
-/* .sub-section1-2 {
-    float: left;
-    width: 45%;
-} */
-
-
-/* .section1:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
-.carousel {
-    /* margin: auto; */
-    max-width: 700px;
-}
-
-.carousel-inner {
-    margin: auto;
-    max-width: 400px;
-}
-
-.carousel-caption {
-    position: absolute;
-    left: 20rem;
-    right: auto;
-    width: 50%;
-    height: 100%;
-    background-color: #428bca;
-    opacity: 0.8;
-    bottom: 0;
-    right: 0;
-}
-
-.carousel-item a {
-    overflow: hidden;
-}
-
-.carousel-control-prev {
-    background-color: rgba(255, 255, 255, 0.404);
-}
-
-.carousel-control-next {
-    background-color: rgba(255, 255, 255, 0.404);
-}
-
-.container .overlay {
-    z-index: 1000;
+    height: 500px;
 }
 
 
