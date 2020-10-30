@@ -68,12 +68,5 @@
         // })
     })
 </script>
-<script>
-    $(document).ready(function(){
-        $('.releasesAnchor').click(function(){
-            window.location='/';
-        })
-    })
-</script>
 
 </html>

@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 Route::get('/test', function () {
     return view('test');
@@ -21,4 +21,4 @@ Route::get('/test', function () {
 
 Route::get('/profileGvm', function () {
     return view('profileGvm');
-});
+})->name('profileGvm');

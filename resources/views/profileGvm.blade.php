@@ -3,8 +3,6 @@
 <div class="container-content">
     <div class="wrapper-content">
         <div class="section1">
-            <h1>{{ var_dump((request()->is('profileGvm')) ? 'active' : '') }}</h1>
-
             <br>
             <h2>Profile Grow Vibes Music</h2>
             <br>

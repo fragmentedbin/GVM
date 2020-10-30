@@ -19,12 +19,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown {{ (request()->is('/')) ? 'active active-c' : '' }}">
+                <li class="nav-item dropdown @if (Route::current()->getName() === 'home')active active-c @endif ">
                         <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Releases
                         </a>
                         <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">All Releases</a>
+                            <a class="dropdown-item @if (Route::current()->getName() === 'home')active active-c @endif" href="{{ url('' )}}">All Releases</a>
                             <a class="dropdown-item" href="#">LP</a>
                             <a class="dropdown-item" href="#">Album</a>
                         </div>
@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Partner Labels</a>
                     </li>
-                    <li class="nav-item {{ (request()->is('profileGvm')) ? 'active active-c' : '' }}">
+                    <li class="nav-item @if (Route::current()->getName() === 'profileGvm')active active-c @endif">
                         <a class="nav-link" href="{{ url('/profileGvm' )}}">Profile Grow Vibes Music</a>
                     </li>
                     <li class="nav-item">
