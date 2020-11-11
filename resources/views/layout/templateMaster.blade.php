@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    @include('_nav')
+    @include('layout/_nav')
     @yield('content')
 </body>
 <!-- jQuery -->

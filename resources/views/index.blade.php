@@ -1,4 +1,4 @@
-@extends('templateMaster')
+@extends('layout/templateMaster')
 @section('content')
 <div class="container-content">
     <div class="wrapper-content">

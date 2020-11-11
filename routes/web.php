@@ -24,3 +24,4 @@ Route::get('/test', function () {
 Route::get('/profileGvm', function () {
     return view('profileGvm');
 })->name('profileGvm');
+

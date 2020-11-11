@@ -1,4 +1,4 @@
-@extends('templateMaster')
+@extends('layout/templateMaster')
 <style>
     body {
         background: crimson;
