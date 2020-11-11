@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+@font-face {
+    src: url(../fonts/New\ Cicle\ Fina.ttf);
+    font-family: "newcicle";
+}
+
+@font-face {
+    src: url(../fonts/New\ Cicle\ Gordita.ttf);
+    font-family: "newcicle-bold";
+}
+
+.active-c {
+    width: auto;
+    height: auto;
+    position: relative;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.top-container-c {
+    width: 100%;
+    background: #000000 !important;
+}
+
+.top-wrapper-c {
+    max-width: 1440px;
+    margin: auto;
+    background: #000000 !important;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+}
+
+.bottom-container-c {
+    width: 100%;
+    background: #000000;
+}
+
+.bottom-wrapper-c {
+    max-width: 1440px;
+    margin: auto;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+}
+
+
+/* .navbar {
+    padding: .5rem 0rem;
+} */
+
+.navbar .top {
+    min-height: 115px;
+    /* background-color: rosybrown; */
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    max-height: 100px;
+    top: 0;
+    left: 0;
+    /* Safari/Chrome */
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    padding: 15px 0px 0px 15px;
+    position: absolute;
+}
+
+.vibes {
+    margin: auto;
+    /* justify-content: center; */
+    color: #fff;
+    letter-spacing: 10px;
+    font-family: "newcicle-bold";
+}
+
+.vibes a {
+    color: white;
+    text-decoration: none;
+}
+
+.vibes h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.vibes p {
+    font-family: "newcicle-bold";
+    position: relative;
+    float: right;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+.bg-dark {
+    background: #000000 !important;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+.dropdown-item {
+    font-weight: 600;
+}
+
+.dropdown-item:hover {
+    color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #000000;
+    text-decoration: none;
+    background-color: rgba(36, 36, 36, 0.26);
+}
+
+@media (min-width: 992px) {
+    .dropdown-item:hover {
+        color: white;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .animate-menu {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+.slideIn-menu {
+    -webkit-animation-name: 'slideIn-menu';
+    animation-name: 'slideIn-menu';
+}
+
+
+/* .dropdown_menu-2 for num in (1..5) .dropdown_item- {
+    num
+} */
+
+@keyframes slideIn-menu {
+    0% {
+        opacity: 0;
+        /* height: 0%; */
+        /* transform: rotateX(0deg); */
+    }
+    /* 50% {
+        transform: rotateX(-20deg);
+    } */
+    100% {
+        opacity: 1;
+        /* height: 100%; */
+        /* transform: rotateX(1deg); */
+    }
+}
+
+
+/* CONTENT */
+
+.container-content {
+    width: 100%;
+    background-image: linear-gradient(to top, #2b2b2b 0%, #000000 100%);
+}
+
+.wrapper-content {
+    max-width: 1440px;
+    margin: auto;
+    background-image: linear-gradient(to top, #2b2b2b 0%, #000000 100%);
+    color: #fff;
+}
+
+.section1 {
+    padding: 20px 20px;
+}
+
+
+/* Float four columns side by side */
+
+.column-c {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.row-c {
+    margin: 0 -5px;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+
+.row-c:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 1212px) {
+    .column-c {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+/* Style the counter cards */
+
+.card-background {
+    position: absolute;
+}
+
+.card-background img {
+    width: 18rem;
+    filter: blur(1px);
+    z-index: 5;
+}
+
+.card-c {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.178);
+    padding: 16px;
+    color: #fff;
+}
+
+.card-c h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 2px;
+    /* background: tomato; */
+}
+
+.icon-fas-tittle {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.icon-fas-artist {
+    padding-right: 11px;
+    font-size: 18px;
+}
+
+.card-c::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media(max-width: 1446px) {
+    .card-img img {
+        width: 18rem;
+    }
+}
+
+.card-img img {
+    width: 16rem;
+    z-index: 10;
+}
+
+@media(max-width: 1252px) {
+    .card-img img {
+        width: 15rem;
+    }
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* width: ; */
+}
+
+.description-sec {
+    width: 100%;
+}
+
+
+/* ------- */
+
+@media(max-width: 1295px) {
+    .nav-item {
+        padding: 0px 10px;
+    }
+}
+
+@media(max-width: 1154px) {
+    .nav-item {
+        padding: 0px;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar {
+        padding: 10px 0px;
+    }
+    .navbar-toggler {
+        margin-left: 15px;
+    }
+    .navbar-nav {
+        padding: 10px 0px;
+    }
+    .nav-item {
+        padding: 0px 10px;
+    }
+    .active-c {
+        padding: 10px 10px;
+    }
+    /* .nav-link {
+        padding: 20px 20px;
+    } */
+}
+
+
+/*
+
+background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+*/
+
+@media(max-width: 600px) {
+    .navbar-brand {
+        margin: auto;
+        width: 100%;
+    }
+    .navbar-brand img {
+        padding: 0;
+        margin: auto;
+        position: relative;
+        display: flex;
+    }
+    .nav-item .active {
+        background: rgba(224, 255, 255, 0.562);
+    }
+    .vibes p {
+        text-align: center;
+        font-family: "newcicle-bold";
+        /* position: relative; */
+        letter-spacing: 15px;
+        /* margin: auto; */
+        width: 100%;
+        font-size: 30px;
+    }
+    .vibes-h1 {
+        letter-spacing: 5px;
+        text-align: center;
+    }
+}
+
+
+/* @media(max-width: 391px) {
+            .vibes {}
+            .vibes h1 {
+                float: left;
+                width: 50%;
+            }
+            .vibes p {
+                position: relative;
+                margin: 0;
+                float: left;
+                width: 50%;
+                font-size: 40px;
+                bottom: -60px;
+            }
+        } */
