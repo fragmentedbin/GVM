@@ -1,7 +1,7 @@
 <div class="top-container-c">
     <div class="top-wrapper-c">
         <nav class="navbar top">
-            <span class="navbar-brand"><a href="/test"><img src="{{asset('/img/logo-navbar.jpg')}}" alt=""></span></a>
+            <span class="navbar-brand"><a href="/"><img src="{{asset('/img/logo-navbar.jpg')}}" alt=""></span></a>
             <div class="vibes">
                 <a href="/">
                     <h1 class="vibes-h1">GROW VIBES</h1>
