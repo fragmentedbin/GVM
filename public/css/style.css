@@ -17,13 +17,14 @@ h1 {
     font-family: "newcicle-bold";
 }
 
-.active-c {
+
+/* .active-c {
     width: auto;
     height: auto;
     position: relative;
     border-radius: 0px;
     background: rgba(255, 255, 255, 0.13);
-}
+} */
 
 .top-container-c {
     width: 100%;
@@ -100,6 +101,7 @@ h1 {
 
 .nav-item {
     padding: 0px 20px;
+    margin: 0px 30px;
 }
 
 .nav-item .nav-link {
@@ -297,6 +299,16 @@ h1 {
 
 .description-sec {
     width: 100%;
+}
+
+.jumbotron-c {
+    overflow: hidden;
+    background-size: 100% 100%;
+    margin: 100px 0px 130px 0px;
+}
+
+.banner-c {
+    padding: 50px 0px 50px 0px;
 }
 
 

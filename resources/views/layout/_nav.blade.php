@@ -17,7 +17,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown @if (Route::current()->getName() === 'home')active active-c @endif ">
                         <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,13 +30,13 @@
                             <a class="dropdown-item @if (Route::current()->getName() === 'album')active active-c @endif" href="{{ url('' )}}">Album</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown @if (Route::current()->getName() === 'submit')active active-c @endif ">
+                    <li class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
                         <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Submit Demo
                         </a>
                         <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item @if (Route::current()->getName() === 'submit')active active-c @endif" href="{{ url('' )}}">Sony Music</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'submit')active active-c @endif" href="{{ url('' )}}">Warner Music</a>
+                            <a class="dropdown-item @if (Route::current()->getName() === 'sonyForm')active active-c @endif" href="{{ url('/form/sonyForm' )}}">Sony Music</a>
+                            <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif" href="{{ url('/form/warnerForm' )}}">Warner Music</a>
                             <a class="dropdown-item @if (Route::current()->getName() === 'submit')active active-c @endif" href="{{ url('' )}}">Our Distribution</a>
 
                         </div>

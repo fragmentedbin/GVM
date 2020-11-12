@@ -25,3 +25,12 @@ Route::get('/profileGvm', function () {
     return view('profileGvm');
 })->name('profileGvm');
 
+//SUBMIT FORM LINK
+    Route::get('/form/sonyForm', function () {
+    return view('/form/sonyForm');
+})->name('sonyForm');
+
+Route::get('/form/warnerForm', function () {
+return view('/form/warnerForm');
+})->name('warnerForm');
+//

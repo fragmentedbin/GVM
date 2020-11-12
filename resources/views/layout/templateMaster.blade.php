@@ -11,7 +11,7 @@
     <!-- MDBootstrap Datatables  -->
     <link href="{{ asset ('css/addons/datatables.min.css')}}" rel="stylesheet">
     <!-- MDB icon -->
-    <link rel="icon" href="{{ asset ('img/icon.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{ asset ('img/gvm-logo.jpg')}}" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
