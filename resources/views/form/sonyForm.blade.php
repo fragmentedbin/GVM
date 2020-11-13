@@ -36,12 +36,6 @@
                     <input type="text" class="form-control form-control-lg" id="genre" placeholder="Genre">
                 </div>
                 <div class="form-group">
-                    <label for="mp3">Preview Track mp3 320 KB/s (Require Google Drive / Sound Cloud Private link)</label>
-                    <br>
-                    <label for="mp3"><span style="color: red;">*</span>Note Expected to open request access if Google Drive link given</label>
-                    <input type="url" class="form-control form-control-lg" id="mp3" placeholder="https://drive.google.com/file/d/example/view?usp=sharing">
-                </div>
-                <div class="form-group">
                     <label for="wav">Preview Track WAV 16 BIT 44,1 HZ (Require Google Drive / Sound Cloud Private link)</label>
                     <br>
                     <label for="wav"><span style="color: red;">*</span>Note Expected to open request access if Google Drive link given</label>
