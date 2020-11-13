@@ -66,6 +66,45 @@
         //     $('.dropdown-toggle').attr('aria-expanded', 'false');
         //     ('.dropdown-menu').removeClass('show')
         // })
+
+
+        $('.colab-input').click(function() {
+            $colab = $(this).val();
+            // if ($colab === 'no') {
+            //     // $('.colab-yes').attr(hidden)
+            // }
+            if ($colab == 'yes') {
+                // alert('delete');
+                $('.colab-yes').attr('hidden', false);
+            }
+            if ($colab == 'no') {
+                // alert($colab);
+                $('.colab-yes').attr('hidden', true);
+            } else {
+
+            }
+        });
+
+
+        $('#customFile').on('change', function() {
+            //get the file name
+            var fileName = $(this).val().replace('C:\\fakepath\\', " ");
+            //replace the "Choose a file" label
+            $(this).next('.custom-file-label').html(fileName);
+        });
+        $check = $("#check-agree");
+        $($check).click(function() {
+        if ($(this).is(":checked")) {
+            $("#form-submit").removeAttr("disabled");
+        } else {
+            $("#form-submit").attr("disabled", "disabled");
+        }
+        });
+
+        $(".modal-accept").click(function(){
+            $('#check-agree').attr("checked",true);
+            $("#form-submit").removeAttr("disabled");
+        });
     })
 </script>
 

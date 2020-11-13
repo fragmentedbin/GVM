@@ -301,6 +301,13 @@ h1 {
     width: 100%;
 }
 
+
+/* FORM */
+
+.custom-file-input~.custom-file-label::after {
+    content: "Button Text";
+}
+
 .jumbotron-c {
     overflow: hidden;
     background-size: 100% 100%;
@@ -310,6 +317,22 @@ h1 {
 .banner-c {
     padding: 50px 0px 50px 0px;
 }
+
+.form-row {
+    padding-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.lable-form-check {
+    font-size: large;
+}
+
+
+/*  ------  */
 
 
 /* ------- */
