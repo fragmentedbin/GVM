@@ -13,34 +13,38 @@
                                 <img src="{{asset('img/cover/anntypi-love.jpg')}}" alt="">
                             </div>
                             --}}
-                        <div class="card-img"><img src="{{asset('img/cover/anntypi-love.jpg')}}" alt=""></div>
-                        <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>LOVE</h3>
-                        <p><i class="fas fa-user icon-fas-artist"></i>anntypi</p>
-
+                        <div class="card-sec">
+                            <div class="card-img"><img src="{{asset('img/cover/anntypi-love.jpg')}}" alt=""></div>
+                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>LOVE</h3>
+                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Anntypi</span></p>
+                        </div>
                     </div>
                 </div>
                 <div class="column-c">
                     <div class="card-c">
-                        <div class="card-img"><img src="{{asset('img/cover/fajra-letsgo.jpg')}}" alt=""></div>
-                        <h3 title="Letsgo">Letsgo</h3>
-                        <p>Some text</p>
-                        <p>Some text</p>
+                        <div class="card-sec">
+                            <div class="card-img"><img src="{{asset('img/cover/fajra-letsgo.jpg')}}" alt=""></div>
+                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Let's Go!!</h3>
+                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Fajra</span></p>
+                        </div>
                     </div>
                 </div>
                 <div class="column-c">
                     <div class="card-c">
-                        <h3>Card 1</h3>
-                        <div class="card-img"><img src="{{asset('img/cover/izuaf88-hidetheidentity.jpg')}}" alt=""></div>
-                        <p>Some text</p>
-                        <p>Some text</p>
+                        <div class="card-sec">
+                            <div class="card-img"><img src="{{asset('img/cover/izuaf88-hidetheidentity.jpg')}}" alt=""></div>
+                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Hide The Identitity</h3>
+                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Izuaf88 & Dendipapey</span></p>
+                        </div>
                     </div>
                 </div>
                 <div class="column-c">
                     <div class="card-c">
-                        <h3>Card 1</h3>
-                        <div class="card-img"><img src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt=""></div>
-                        <p>Some text</p>
-                        <p>Some text</p>
+                        <div class="card-sec">
+                            <div class="card-img"><img src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt=""></div>
+                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Paradise</h3>
+                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Lost Paper</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
