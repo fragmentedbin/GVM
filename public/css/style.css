@@ -661,3 +661,10 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
         padding-top: 10px;
     }
 }
+
+@media(max-width: 360) {
+    .section {
+        max-height: 640px;
+        min-height: 140px;
+    }
+}
