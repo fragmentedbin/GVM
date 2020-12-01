@@ -16,8 +16,8 @@
                     <div class="slide-content">
                         <img src="{{asset('img/cover/anntypi-love.jpg')}}" alt="">
                         <div class="side-content">
-                            <div class="slide-artist">anntypi</div>
-                            <div class="slide-song">Love</div>
+                            <div class="slide-artist"><strong>anntypi</strong></div>
+                            <div class="slide-song"><b>Love</b></div>
                             <div class="listen-spotify">
                                 <img src="{{asset('img/svg/spotify.svg')}}" alt="">
                             </div>
