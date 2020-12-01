@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#">Creators</a>
                     </li>
                     <li class="nav-item @if (Route::current()->getName() === 'profileGvm')active active-c @endif">
-                        <a class="nav-link" href="{{ url('profileGvm' )}}">Who We Are</a>
+                        <a class="nav-link" href="@if($featureAccess == 0) # @else {{ url('profileGvm' )}} @endif "> Who We Are</a>
                     </li>
                 </ul>
             </div>

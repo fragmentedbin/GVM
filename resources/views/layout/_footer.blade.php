@@ -50,7 +50,7 @@
                 <p><img src="{{asset('/img/svg/flag-indonesia.svg')}}" alt=""> Indonesia</p>
                 <div class="copyright-sec">
                     <p>&copy Grow Vibes Music. All Right Reserved.</p>
-                    <div class="privacy"><a href="{{asset('/privacy')}}">Privacy Policy</a></div>
+                    <div class="privacy"><a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a></div>
                 </div>
             </div>
         </div>

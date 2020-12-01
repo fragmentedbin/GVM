@@ -1,3 +1,6 @@
+<?php 
+$featureAccess = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
