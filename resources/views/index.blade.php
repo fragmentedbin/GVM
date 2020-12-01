@@ -2,49 +2,45 @@
 @section('content')
 <div class="container-content">
     <div class="wrapper-content">
-        <div class="section1">
+        <div class="section">
             <h2>Single</h2>
             <br>
-            <div class="row-c">
-                <div class="column-c">
-                    <div class="card-c">
-                        {{--
-                            <div class="card-background">
-                                <img src="{{asset('img/cover/anntypi-love.jpg')}}" alt="">
+            <div class="sec-container">
+                <div class="sec-slide-row">
+                    <div class="slide-arrow-prev d-flex align-items-center">
+                        <div class="arrow-sircle d-flex align-items-center">
+                            <img src="{{asset('img/svg/arrow_left.svg')}}" alt="">
+                        </div>
+                    </div>
+
+                    <div class="slide-content">
+                        <img src="{{asset('img/cover/anntypi-love.jpg')}}" alt="">
+                        <div class="side-content">
+                            <div class="slide-artist">anntypi</div>
+                            <div class="slide-song">Love</div>
+                            <div class="listen-spotify">
+                                <img src="{{asset('img/svg/spotify.svg')}}" alt="">
                             </div>
-                            --}}
-                        <div class="card-sec">
-                            <div class="card-img"><img src="{{asset('img/cover/anntypi-love.jpg')}}" alt=""></div>
-                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>LOVE</h3>
-                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Anntypi</span></p>
+                            <div class="listen-appleMusic">
+                                <img src="{{asset('img/svg/apple-music.svg')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-arrow-next d-flex align-items-center">
+                        <div class="arrow-sircle d-flex align-items-center">
+                            <img src="{{asset('img/svg/arrow_right.svg')}}" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="column-c">
-                    <div class="card-c">
-                        <div class="card-sec">
-                            <div class="card-img"><img src="{{asset('img/cover/fajra-letsgo.jpg')}}" alt=""></div>
-                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Let's Go!!</h3>
-                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Fajra</span></p>
-                        </div>
+                <div class="sec-slide-dot d-flex align-items-center">
+                    <div class="slide-dot" data-target="1">
+                        <i class="fas fa-circle"> </i>
                     </div>
-                </div>
-                <div class="column-c">
-                    <div class="card-c">
-                        <div class="card-sec">
-                            <div class="card-img"><img src="{{asset('img/cover/izuaf88-hidetheidentity.jpg')}}" alt=""></div>
-                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Hide The Identitity</h3>
-                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Izuaf88 & Dendipapey</span></p>
-                        </div>
+                    <div class="slide-dot" data-target="2">
+                        <i class="fas fa-circle"></i>
                     </div>
-                </div>
-                <div class="column-c">
-                    <div class="card-c">
-                        <div class="card-sec">
-                            <div class="card-img"><img src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt=""></div>
-                            <h3><i class="fas fa-compact-disc icon-fas-tittle"></i>Paradise</h3>
-                            <p><i class="fas fa-user icon-fas-artist"></i><span class="card-artist">Lost Paper</span></p>
-                        </div>
+                    <div class="slide-dot" data-target="3">
+                        <i class="fas fa-circle"></i>
                     </div>
                 </div>
             </div>

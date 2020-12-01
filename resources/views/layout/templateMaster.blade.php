@@ -1,4 +1,4 @@
-<?php 
+<?php
 $featureAccess = 0;
 ?>
 <!DOCTYPE html>
@@ -45,6 +45,9 @@ $featureAccess = 0;
 <script type="text/javascript" src="{{asset('js/addons/pdfmake.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/addons/vfs_fonts.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}}"></script>
+
+{{-- ADD-on --}}
+
 
 {{-- JS CUSTOM --}}
 <script>
@@ -149,6 +152,8 @@ $featureAccess = 0;
         event.preventDefault();
         $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
     });
+
+ 
 </script>
 
 </html>
