@@ -7,12 +7,13 @@
             <br>
             <div class="sec-container">
                 <div class="sec-slide-row">
+                    {{--  --}}
                     <div class="slide-arrow-prev d-flex align-items-center">
                         <div class="arrow-sircle d-flex align-items-center">
                             <img src="{{asset('img/svg/arrow_left.svg')}}" alt="">
                         </div>
                     </div>
-
+                    {{--  --}}
                     <div class="slide-content">
                         <img src="{{asset('img/cover/anntypi-love.jpg')}}" alt="">
                         <div class="side-content">
@@ -26,13 +27,15 @@
                             </div>
                         </div>
                     </div>
+                    {{--  --}}
                     <div class="slide-arrow-next d-flex align-items-center">
                         <div class="arrow-sircle d-flex align-items-center">
                             <img src="{{asset('img/svg/arrow_right.svg')}}" alt="">
                         </div>
                     </div>
+                    {{--  --}}
                 </div>
-                <div class="sec-slide-dot d-flex align-items-center">
+                {{-- <div class="sec-slide-dot d-flex align-items-center">
                     <div class="slide-dot" data-target="1">
                         <i class="fas fa-circle"> </i>
                     </div>
@@ -42,7 +45,7 @@
                     <div class="slide-dot" data-target="3">
                         <i class="fas fa-circle"></i>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
