@@ -33,7 +33,7 @@
                     <ul class="info">
                         <li>
                             <span><i class="fas fa-map"></i></span>
-                            <span>Jl. Kawaluyaan 3 Kota Bandung, Jawa Barat 40286</span>
+                            <span><a href="https://www.google.com/maps/place/Jl.+Kawaluyaan+Indah+Raya+No.3,+Jatisari,+Kec.+Buahbatu,+Kota+Bandung,+Jawa+Barat+40286/@-6.9341963,107.658965,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e804f424fbed:0x32a729fd1fbf13ce!8m2!3d-6.9341963!4d107.6611537" target="_blank">Jl. Kawaluyaan 3 Kota Bandung, Jawa Barat 40286</a></span>
                         </li>
                         <li>
                             <span><i class="fas fa-phone-alt"></i></span>
