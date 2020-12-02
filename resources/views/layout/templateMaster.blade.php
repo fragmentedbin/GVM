@@ -12,7 +12,7 @@ $featureAccess = 0;
     <title>GVM</title>
 
     <!-- MDBootstrap Datatables  -->
-    <link href="{{ asset ('css/addons/datatables.min.css')}}" rel="stylesheet">
+    {{-- <link href="{{ asset ('css/addons/datatables.min.css')}}" rel="stylesheet"> --}}
     <!-- MDB icon -->
     <link rel="icon" href="{{ asset ('img/gvm-logo.jpg')}}" type="image/x-icon">
     <!-- Font Awesome -->
