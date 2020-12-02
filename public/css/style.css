@@ -668,11 +668,14 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     .sci li {
         padding-top: 10px;
     }
+    footer {
+        padding: 40px 5px;
+    }
 }
 
-@media(max-width: 360) {
+@media(max-width: 360px) {
     .section {
-        max-height: 640px;
+        max-height: 700px;
         min-height: 140px;
     }
 }
