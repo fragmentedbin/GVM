@@ -31,20 +31,19 @@ $featureAccess = 0;
     @include('layout._footer')
 </body>
 <!-- jQuery -->
-<script type=" text/javascript" src="{{asset('js/jquery.min.js')}}">
-</script>
+<script type=" text/javascript" src="{{asset('js/jquery.min.js')}} defer"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="{{asset('js/popper.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/popper.min.js')}} defer"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}} defer"></script>
 <!-- MDBootstrap Datatables  -->
-<script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}} defer"></script>
 <!-- Your custom scripts (optional) -->
-<script type="text/javascript" src="{{asset('js/style.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/style.js')}} defer"></script>
 
-<script type="text/javascript" src="{{asset('js/addons/pdfmake.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/addons/vfs_fonts.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/addons/pdfmake.min.js')}} defer"></script>
+<script type="text/javascript" src="{{asset('js/addons/vfs_fonts.js')}} defer"></script>
+<script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}} defer"></script>
 
 {{-- ADD-on --}}
 
