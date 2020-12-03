@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sponsor-slider">
+                {{-- <div class="sponsor-slider">
                     <div class="carousel owl-carousel">
                         <div class="card card"><img src="{{asset('img/partner/jcc.png')}}" alt=""></div>
                         <div class="card card"><img src="{{asset('img/partner/rasadafm.png')}}" alt=""></div>
@@ -81,7 +81,7 @@
                         <div class="card card"><img src="{{asset('img/partner/wami.png')}}" alt=""></div>
                         <div class="card card"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
