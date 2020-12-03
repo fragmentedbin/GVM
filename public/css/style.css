@@ -508,7 +508,7 @@
     }
     
     .copyRight {
-        width: 100%;
+        width: 35%;
         margin-top: 20px;
         padding-left: 20px;
         position: relative;
@@ -529,10 +529,34 @@
     /* ------- */
     /* CAROUSEL */
     
+    .sponsor-slider {
+        display: flex;
+        width: 50%;
+        position: relative;
+    }
+    
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: transparent!important;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+    }
+    
     .carousel {
         max-width: 1200px;
         margin: auto;
         padding: 0;
+    }
+    
+    .owl-carousel {
+        /* width: 50%; */
     }
     
     .carousel .card {
@@ -544,26 +568,6 @@
         font-weight: 600;
         border-radius: 10px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    
-    .carousel .card-1 {
-        background: #ed1c24;
-    }
-    
-    .carousel .card-2 {
-        background: #0072bc;
-    }
-    
-    .carousel .card-3 {
-        background: #39b54a;
-    }
-    
-    .carousel .card-4 {
-        background: #f26522;
-    }
-    
-    .carousel .card-5 {
-        background: #630460;
     }
     
     .owl-dots {
@@ -635,8 +639,10 @@
             padding-left: 200px;
         } */
         .bottom-foot {
-            display: flex;
-            height: 200%;
+            display: block;
+            background: #0072bc;
+            width: 100%;
+            height: 200px;
         }
         footer {
             padding: 40px;

@@ -69,17 +69,17 @@
                     <div class="copyright-sec">
                         <p>&copy Grow Vibes Music. All Right Reserved.</p>
                         <div class="privacy"><a
-                                href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy
-                                Policy</a></div>
-                        <div class="sponsor-slider">
-                            <div class="carousel owl-carousel">
-                                <div class="card card"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-                                <div class="card card"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-                                <div class="card card"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-                                <div class="card card"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-                                <div class="card card"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-                            </div>
+                                href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
                         </div>
+                    </div>
+                </div>
+                <div class="sponsor-slider">
+                    <div class="carousel owl-carousel">
+                        <div class="card card"><img src="{{asset('img/partner/jcc.png')}}" alt=""></div>
+                        <div class="card card"><img src="{{asset('img/partner/rasadafm.png')}}" alt=""></div>
+                        <div class="card card"><img src="{{asset('img/partner/lineupaja.png')}}" alt=""></div>
+                        <div class="card card"><img src="{{asset('img/partner/wami.png')}}" alt=""></div>
+                        <div class="card card"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></div>
                     </div>
                 </div>
             </div>

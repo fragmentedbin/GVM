@@ -112,11 +112,7 @@
 <body>
     <div class="wrapper">
         <div class="carousel owl-carousel">
-            <div class="card card-1"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-            <div class="card card-2"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-            <div class="card card-3"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-            <div class="card card-4"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
-            <div class="card card-5"><img src="{{asset('img/store/str-spotify.png')}}" alt=""></div>
+            <div class="card card-1"><img src="{{asset('img/partner/jcc.png')}}" alt=""></div>
         </div>
     </div>
     <script>
