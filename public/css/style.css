@@ -523,6 +523,22 @@
         width: 10%;
     }
     
+    .partner ul {
+        display: flex;
+    }
+    
+    .partner ul li {
+        list-style: none;
+        /* margin-left: 10px; */
+    }
+    
+    .partner ul li a img {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .partner img {
         margin-right: 10px;
         width: 70px;
@@ -671,7 +687,7 @@
         .quickLinks,
         .contacts,
         .copyRight {
-            width: 50%;
+            width: 100%;
         }
         footer .footer-container .sec {
             margin-bottom: 0;
@@ -740,6 +756,9 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     
     @media(max-width: 471px) {
         .sci {
+            flex-wrap: wrap;
+        }
+        .partner {
             flex-wrap: wrap;
         }
         .sci li {
