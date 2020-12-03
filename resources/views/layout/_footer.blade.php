@@ -74,11 +74,11 @@
                     </div>
                 </div>
                 <div class="partner">
-                    <div class=""><img src="{{asset('img/partner/jcc.png')}}" alt=""></div>
-                    <div class=""><img src="{{asset('img/partner/rasadafm.png')}}" alt=""></div>
-                    <div class=""><img src="{{asset('img/partner/lineupaja.png')}}" alt=""></div>
-                    <div class=""><img src="{{asset('img/partner/wami.png')}}" alt=""></div>
-                    <div class=""><img src="{{asset('img/partner/ppl.svg')}}" alt=""></div>
+                    <div class=""><a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}" alt=""></a></div>
+                    <div class=""><a href="https://www.instagram.com/rasadafm/"><img src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
+                    <div class=""><a href="https://www.instagram.com/lineupproject/"><img src="{{asset('img/partner/lineupaja.png')}}" alt=""></a></div>
+                    <div class=""><a href="https://www.wami.id/"><img src="{{asset('img/partner/wami.png')}}" alt=""></a></div>
+                    <div class=""><a href="https://www.ppluk.com/"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></a></div>
                 </div>
                 {{-- <div class="sponsor-slider">
                     <div class="carousel owl-carousel">
