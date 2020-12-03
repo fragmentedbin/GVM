@@ -84,6 +84,8 @@
                         <li><a href="https://www.wami.id/"><img src="{{asset('img/partner/wami.png')}}" alt=""></a></li>
                         <li><a href="https://www.ppluk.com/"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></a>
                         </li>
+                        <li><a href="https://www.instagram.com/sooundsession/"><img src="{{asset('img/partner/sooundsession.png')}}" alt=""></a>
+                        </li>
                     </ul>
                 </div>
             </div>
