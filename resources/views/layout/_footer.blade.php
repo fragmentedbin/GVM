@@ -78,7 +78,7 @@
                         <li><a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}"
                                     alt=""></a></li>
                         <li><a href="https://www.instagram.com/rasadafm/"><img
-                                    src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></li>
+                                    src="{{asset('img/partner/Rasadafm.png')}}" alt=""></a></li>
                         <li><a href="https://www.instagram.com/lineupproject/"><img
                                     src="{{asset('img/partner/lineupaja.png')}}" alt=""></a></li>
                         <li><a href="https://www.wami.id/"><img src="{{asset('img/partner/wami.png')}}" alt=""></a></li>
