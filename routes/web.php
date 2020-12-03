@@ -38,3 +38,7 @@ return view('/form/warnerForm');
 Route::get('/privacy', function () {
 return view('/privacy');
 })->name('privacyPolicy');
+
+Route::get('/swiper', function () {
+return view('/swiper');
+})->name('swiper');
