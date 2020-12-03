@@ -688,7 +688,8 @@
         footer .footer-container .sec.sec.aboutus,
         .quickLinks,
         .contacts,
-        .copyRight {
+        .copyRight,
+        .partner {
             width: 100%;
         }
         footer .footer-container .sec {
@@ -756,12 +757,19 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
         }
     }
     
+    @media(max-width: 556px) {
+        body {
+            background: #000000;
+        }
+    }
+    
     @media(max-width: 471px) {
         .sci {
             flex-wrap: wrap;
         }
         .partner {
             flex-wrap: wrap;
+            /* overflow: hidden; */
         }
         .sci li {
             padding-top: 10px;
