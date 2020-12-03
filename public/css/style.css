@@ -533,16 +533,18 @@
     }
     
     .partner ul li a img {
+        margin-right: 10px;
+        width: 70px;
         display: inline-block;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-    .partner img {
+    /* .partner img {
         margin-right: 10px;
         width: 70px;
     }
+     */
     
     .copyRight p img {
         width: 30px;
