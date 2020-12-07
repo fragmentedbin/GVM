@@ -5,9 +5,8 @@
         <div class="container">
             <form class="form" action="" method="GET" enctype="multipart/form-data">
                 <div class="banner-c">
-                    <div class="d-flex justify-content-center"
-                        style="background: url('/img/form/sony.png')no-repeat center center;">
-                        <div class="jumbotron-fluid jumbotron-c"></div>
+                    <div class="d-flex justify-content-center" style="background: url('')no-repeat center center;">
+                        <img src="{{asset('/img/form/sony.png')}}" alt="">
                     </div>
                 </div>
                 <div class="form-row">
@@ -165,6 +164,8 @@
                 </div>
                 <div class="d-flex">
                     <div class="ml-auto p-2">
+                        <button type="reset" class="btn btn-danger" onClick="window.location.reload();">Reset <i
+                                class="fal fa-sync"></i></button>
                         <button type="submit" id="form-submit" class="btn btn-primary" disabled>Submit</button>
                     </div>
                 </div>
