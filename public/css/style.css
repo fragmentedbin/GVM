@@ -419,12 +419,16 @@
     }
     
     .banner-c {
+        overflow: hidden;
+        max-width: 1600px;
+        max-height: 400px;
         width: 100%;
         /* padding: 50px 0px 100px 0px; */
         padding: 20px 0px;
     }
     
     .banner-c img {
+        overflow: hidden;
         width: 100%;
     }
     
@@ -628,11 +632,11 @@
         justify-content: center;
         align-items: center;
     }
-    /* .partner img {
+    
+    .partner img {
         margin-right: 10px;
         width: 70px;
     }
-     */
     
     .copyRight p img {
         width: 30px;
@@ -646,70 +650,6 @@
         margin-left: 10px;
     }
     /* ------- */
-    /* CAROUSEL */
-    
-    .sponsor-slider {
-        display: flex;
-        width: 50%;
-        position: relative;
-    }
-    
-    .card {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: transparent!important;
-        background-clip: border-box;
-        border: 1px solid rgba(0, 0, 0, .125);
-        border-radius: .25rem;
-    }
-    
-    .carousel {
-        max-width: 1200px;
-        margin: auto;
-        padding: 0;
-    }
-    
-    .owl-carousel {
-        /* width: 50%; */
-    }
-    
-    .carousel .card {
-        color: #fff;
-        text-align: center;
-        margin: 20px 0;
-        line-height: 250px;
-        font-size: 90px;
-        font-weight: 600;
-        border-radius: 10px;
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    
-    .owl-dots {
-        text-align: center;
-        margin-top: 40px;
-    }
-    
-    .owl-dot {
-        height: 15px;
-        width: 45px;
-        margin: 0 5px;
-        outline: none;
-        border-radius: 14px;
-        border: 2px solid #0072bc !important;
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-    }
-    
-    .owl-dot.active,
-    .owl-dot:hover {
-        background: #0072bc !important;
-    }
-    /* -------- */
     
     @media(min-width: 710px) {
         .sec-slide-dot {
@@ -754,15 +694,9 @@
             background: rgba(255, 255, 255, 0.13);
             padding: 10px 10px;
         }
-        /* .nav-link {
-            padding-left: 200px;
-        } */
-        /* .bottom-foot {
-            display: flex;
-            background: #0072bc;
-            width: 100%;
-            height: 200px;
-        } */
+        .banner-c img {
+            /* transform: scale(2); */
+        }
         footer {
             padding: 40px;
         }
@@ -811,10 +745,6 @@
             display: none !important;
         }
     }
-    /*
-
-background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-*/
     
     @media(max-width: 600px) {
         .navbar-brand {
@@ -855,10 +785,10 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
         .sci {
             flex-wrap: wrap;
         }
-        .partner {
+        /* .partner {
             flex-wrap: wrap;
-            /* overflow: hidden; */
-        }
+            overflow: hidden;
+        } */
         .sci li {
             padding-top: 10px;
         }
