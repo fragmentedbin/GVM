@@ -199,6 +199,32 @@
             /* transform: rotateX(1deg); */
         }
     }
+    
+    .row-c {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    
+    .row-inner {
+        margin: auto;
+    }
+    
+    .partner-labels {
+        background: rgb(118, 46, 148);
+        background: linear-gradient(318deg, rgba(118, 46, 148, 1) 0%, rgba(104, 104, 255, 1) 100%);
+    }
+    
+    .lable-img {
+        /* filter: invert(100%); */
+        width: 200px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .lable-img:hover {
+        transform: scale(1.1);
+    }
     /* CONTENT */
     
     .container-content {

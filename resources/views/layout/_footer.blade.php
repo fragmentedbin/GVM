@@ -79,6 +79,10 @@
                                     class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img
                                     class="img-partner" src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/https://soundfren.id//"><img
+                                    class="img-partner" src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.ppluk.com/"><img
+                                    class="img-partner" src="{{asset('img/partner/ppl2.png')}}" alt=""></a></div>
                     </div>
                 </div>
                 <div class="copyRight">
