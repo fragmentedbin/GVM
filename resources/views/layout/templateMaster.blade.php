@@ -13,7 +13,7 @@ $featureAccess = 0;
 
     <!-- MDBootstrap Datatables  -->
     {{-- <link href="{{ asset ('css/addons/datatables.min.css')}}" rel="stylesheet"> --}}
-    <!-- MDB icon -->
+    <!-- icon -->
     <link rel="icon" href="{{ asset ('img/gvm-logo.jpg')}}" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css">
@@ -21,11 +21,8 @@ $featureAccess = 0;
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <!-- Bootstrap core CSS -->
     {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"> --}}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     {{-- ADD ON --}}
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
@@ -38,18 +35,15 @@ $featureAccess = 0;
 </body>
 <!-- jQuery -->
 {{-- <script type=" text/javascript" src="{{asset('js/jquery.min.js')}} defer"></script> --}}
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>
 <!-- Bootstrap tooltips -->
 {{-- <script type="text/javascript" src="{{asset('js/popper.min.js')}} defer"></script> --}}
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
 </script>
 <!-- Bootstrap core JavaScript -->
 {{-- <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}} defer"></script> --}}
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
 </script>
 <!-- MDBootstrap Datatables  -->
 {{-- <script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}} defer"></script> --}}
@@ -63,37 +57,12 @@ $featureAccess = 0;
 
 {{-- ADD-on --}}
 <script defer src="https://pro.fontawesome.com/releases/v5.13.1/css/all.css"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
 {{-- JS CUSTOM --}}
 <script>
     $(document).ready(function() {
-        // $('.dropdown').hover(function(){
-        //     $(this).addClass('show');
-        //     $('.dropdown-menu').addClass('show');
-        // })
-
-        // $('dropdown').mouseenter(function(){
-        //
-        // })
-        // $('dropdown').mouseleave(function(){
-        //     $(this).removeClass('show');
-        // })
-        // $('.dropdown').hover(function(){
-        //     $(this).addClass('show');
-        //     $('.dropdown-toggle').attr('aria-expanded', 'true');
-        //     ('.dropdown-menu').addClass('show')
-        // })
-        // $('.dropdown').mouseleave(function(){
-        //     $(this).removeClass('show');
-        //     $('.dropdown-toggle').attr('aria-expanded', 'false');
-        //     ('.dropdown-menu').removeClass('show')
-        // })
-
-
         $('.colab-input').click(function() {
             $colab = $(this).val();
             // if ($colab === 'no') {
@@ -131,85 +100,70 @@ $featureAccess = 0;
             $('#check-agree').attr("checked", true);
             $("#form-submit").removeAttr("disabled");
         });
-    });
-    document.addEventListener("DOMContentLoaded", function() {
-        const placeholder = document.querySelector('.placeholder')
-        const footer = document.querySelector('footer')
 
-        // On DOM Content Load, set placeholder height to be equal to footer height
-        updateHeight()
+        document.addEventListener("DOMContentLoaded", function() {
+            const placeholder = document.querySelector('.placeholder')
+            const footer = document.querySelector('footer')
 
-        window.addEventListener('resize', onResize)
-
-        // On window resize, update placeholder height to be equal to footer height
-        function onResize() {
+            // On DOM Content Load, set placeholder height to be equal to footer height
             updateHeight()
+
+            window.addEventListener('resize', onResize)
+
+            // On window resize, update placeholder height to be equal to footer height
+            function onResize() {
+                updateHeight()
+            }
+
+            function updateHeight() {
+                // Placeholder should always match footer height
+                placeholder.style.height = `${footer.offsetHeight}px`
+            }
+        });
+
+        var readMoreHTML = $(".read-more").html();
+        var stringLimit = 198;
+        var lessText = readMoreHTML.substr(0, stringLimit);
+
+        if (readMoreHTML.length > stringLimit) {
+            $(".read-more").html(lessText).append("<a href='' class='read-more-link'> Read more..</a>");
+        } else {
+            $("read-more").html(readMoreHTML);
         }
 
-        function updateHeight() {
-            // Placeholder should always match footer height
-            placeholder.style.height = `${footer.offsetHeight}px`
-        }
+        $("body").on("click", ".read-more-link", function(event) {
+            event.preventDefault();
+            $(this).parent(".read-more").html(readMoreHTML).append("<a href='' class='show-less-link'> Read less..</a>");
+        });
+
+        $("body").on("click", ".show-less-link", function() {
+            event.preventDefault();
+            $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
+        });
+
+        // SWIPER
+        var mySwiper = new Swiper('.swiper-container', {
+
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
     });
-
-    var readMoreHTML = $(".read-more").html();
-    var stringLimit = 198;
-    var lessText = readMoreHTML.substr(0, stringLimit);
-
-    if (readMoreHTML.length > stringLimit) {
-        $(".read-more").html(lessText).append("<a href='' class='read-more-link'> Read more..</a>");
-    } else {
-        $("read-more").html(readMoreHTML);
-    }
-
-    $("body").on("click", ".read-more-link", function(event) {
-        event.preventDefault();
-        $(this).parent(".read-more").html(readMoreHTML).append("<a href='' class='show-less-link'> Read less..</a>");
-    });
-
-    $("body").on("click", ".show-less-link", function() {
-        event.preventDefault();
-        $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
-    });
-
-    
-      var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      autoplay: {
-        delay: 5500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
 </script>
 
 </html>

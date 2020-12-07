@@ -74,8 +74,8 @@
                     </div>
                 </div>
                 <div class="partner">
-                    {{-- <ul>
-                        <li><a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}"
+                    <ul>
+                        <li><a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/ jcc.png')}}"
                                     alt=""></a></li>
                         <li><a href="https://www.instagram.com/rasadafm/"><img
                                     src="{{asset('img/partner/Rasadafm.png')}}" alt=""></a></li>
@@ -86,7 +86,7 @@
                         </li>
                         <li><a href="https://www.instagram.com/sooundsession/"><img src="{{asset('img/partner/sooundsession.png')}}" alt=""></a>
                         </li>
-                    </ul> --}}
+                    </ul>
                 </div>
             </div>
         </div>
