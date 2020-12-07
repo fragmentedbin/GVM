@@ -11,8 +11,6 @@ $featureAccess = 0;
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>GVM</title>
 
-    <!-- MDBootstrap Datatables  -->
-    {{-- <link href="{{ asset ('css/addons/datatables.min.css')}}" rel="stylesheet"> --}}
     <!-- icon -->
     <link rel="icon" href="{{ asset ('img/gvm-logo.jpg')}}" type="image/x-icon">
     <!-- Font Awesome -->
@@ -22,9 +20,7 @@ $featureAccess = 0;
     <!-- Bootstrap core CSS -->
     {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"> --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    {{-- ADD ON --}}
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- Your custom styles (optional) -->
+    <!-- custom styles -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 
@@ -45,9 +41,7 @@ $featureAccess = 0;
 {{-- <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}} defer"></script> --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
 </script>
-<!-- MDBootstrap Datatables  -->
-{{-- <script type="text/javascript" src="{{asset('js/addons/datatables.min.js')}} defer"></script> --}}
-<!-- Your custom scripts (optional) -->
+<!-- custom scripts (optional) -->
 <script type="text/javascript" src="{{asset('js/style.js')}} defer"></script>
 
 {{-- UNUSED --}}
@@ -57,7 +51,6 @@ $featureAccess = 0;
 
 {{-- ADD-on --}}
 <script defer src="https://pro.fontawesome.com/releases/v5.13.1/css/all.css"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
 {{-- JS CUSTOM --}}
@@ -141,28 +134,6 @@ $featureAccess = 0;
             $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
         });
 
-        // SWIPER
-        var mySwiper = new Swiper('.swiper-container', {
-
-            // Optional parameters
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        })
     });
 </script>
 
