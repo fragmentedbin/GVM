@@ -62,8 +62,8 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
                             aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item @if (Route::current()->getName() === 'sonyForm')active active-c @endif"
-                                href="{{ url('/form/sonyForm' )}}">Artists</a>
+                            <a class="dropdown-item @if (Route::current()->getName() === 'artist')active active-c @endif"
+                                href="{{ url('#' )}}">Artists</a>
                             <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
                                 data-toggle="modal" data-target=".bd-example-modal-lg" href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
                         </div>
