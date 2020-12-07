@@ -62,6 +62,25 @@
                         </li>
                     </ul>
                 </div>
+                <div class="sec partner">
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner" src="{{asset('img/partner/jcc.png')}}"
+                                    alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img
+                                    class="img-partner" src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/lineupproject/"><img
+                                    class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner" src="{{asset('img/partner/wahanamusicindonesia.png')}}"
+                                    alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/sooundsession/"><img
+                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
+                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img
+                                    class="img-partner" src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                    </div>
+                </div>
                 <div class="copyRight">
                     <p><img src="{{asset('/img/svg/flag-indonesia.svg')}}" alt=""> Indonesia</p>
                     <div class="copyright-sec">
@@ -70,27 +89,6 @@
                             <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
                             <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Cookies Policy</a>
                         </div>
-                        <div class="privacy">
-                        </div>
-                    </div>
-                </div>
-                <div class="sec partner">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3 col-xs-3">
-                            <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner" src="{{asset('img/partner/jcc.png')}}"
-                                    alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/rasadafm/"><img
-                                    class="img-partner" src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/lineupproject/"><img
-                                    class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.wami.id/"><img class="img-partner" src="{{asset('img/partner/wahanamusicindonesia.png')}}"
-                                    alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/sooundsession/"><img
-                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
-                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
-                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/redclipsmv/"><img
-                                    class="img-partner" src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
                     </div>
                 </div>
             </div>
