@@ -74,25 +74,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="sec partner d-flex flex-row bd-highlight mb-3">
-                    <div class="p-2 bd-highlight">
-                        <a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}"
-                                alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/rasadafm/"><img src="{{asset('img/partner/rasadafm.png')}}"
-                                alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/lineupproject/"><img
-                                src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.wami.id/"><img src="{{asset('img/partner/wahanamusicindonesia.png')}}"
-                                alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/sooundsession/"><img
-                                src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
-                                src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/redclipsmv/"><img
-                                src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
-                    {{-- <li><a href="https://www.ppluk.com/"><img style="width: 65px; margin:auto;" src="{{asset('img/partner/ppl2.png')}}"
-                    alt=""></a>
-                    </li> --}}
+                <div class="sec partner">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner" src="{{asset('img/partner/jcc.png')}}"
+                                    alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/rasadafm/"><img
+                                    class="img-partner" src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/lineupproject/"><img
+                                    class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.wami.id/"><img class="img-partner" src="{{asset('img/partner/wahanamusicindonesia.png')}}"
+                                    alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/sooundsession/"><img
+                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
+                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
+                        <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://www.instagram.com/redclipsmv/"><img
+                                    class="img-partner" src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                    </div>
                 </div>
             </div>
         </div>

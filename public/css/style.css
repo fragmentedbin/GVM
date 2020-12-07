@@ -612,15 +612,25 @@
     }
     
     .partner {
-        display: flex;
+        display: table-cell;
+        /* flex-direction: column; */
         margin-top: 20px;
         width: 100%;
     }
     
-    .partner img {
+    .img-partner {
         max-width: 100px;
     }
-    /* .partner ul {
+    
+    .partner ul li {}
+    
+    .partner ul li img {
+        flex-flow: wrap;
+        align-content: flex-start;
+        max-width: 100px;
+    }
+    
+    .partner ul {
         display: flex;
     }
     
@@ -636,7 +646,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    } */
+    }
     
     .copyRight p img {
         width: 30px;
@@ -788,10 +798,10 @@
         .sci {
             flex-wrap: wrap;
         }
-        /* .partner {
+        .partner {
             flex-wrap: wrap;
             overflow: hidden;
-        } */
+        }
         .sci li {
             padding-top: 10px;
         }
