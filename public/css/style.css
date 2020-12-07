@@ -234,6 +234,11 @@
         width: 50px;
         height: 50px;
         margin: auto;
+        transition: 0.3s;
+    }
+    
+    .arrow-sircle:hover {
+        box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
     }
     
     .arrow-sircle img {
@@ -600,43 +605,38 @@
     }
     
     .copyRight {
-        width: 43%;
+        width: 100%;
         margin-top: 20px;
-        padding-left: 20px;
         position: relative;
         bottom: 0;
-        float: left;
     }
     
     .partner {
-        float: left;
         display: flex;
         margin-top: 20px;
-        width: 10%;
+        width: 100%;
     }
     
-    .partner ul {
+    .partner img {
+        max-width: 100px;
+    }
+    /* .partner ul {
         display: flex;
     }
     
     .partner ul li {
         list-style: none;
-        /* margin-left: 10px; */
+        margin-left: 10px;
     }
     
     .partner ul li a img {
         margin-right: 10px;
-        width: 70px;
+        width: 90px;
         display: inline-block;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    
-    .partner img {
-        margin-right: 10px;
-        width: 70px;
-    }
+    } */
     
     .copyRight p img {
         width: 30px;
@@ -648,6 +648,10 @@
     
     .privacy {
         margin-left: 10px;
+    }
+    
+    .privacy a {
+        margin-right: 7px;
     }
     /* ------- */
     
@@ -710,15 +714,11 @@
         footer .footer-container .sec.sec.aboutus,
         .quickLinks,
         .contacts,
-        .copyRight,
-        .partner {
+        .copyRight {
             width: 100%;
         }
         footer .footer-container .sec {
             margin-bottom: 0;
-        }
-        .copyRight {
-            padding-left: 10px;
         }
         .privacy {
             margin: 0;
@@ -779,6 +779,9 @@
         body {
             background: #000000;
         }
+        /* .partner ul li {
+            flex-wrap: wrap;
+        } */
     }
     
     @media(max-width: 471px) {

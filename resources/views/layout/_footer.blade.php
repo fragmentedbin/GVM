@@ -62,32 +62,38 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="bottom-foot">
                 <div class="copyRight">
                     <p><img src="{{asset('/img/svg/flag-indonesia.svg')}}" alt=""> Indonesia</p>
                     <div class="copyright-sec">
                         <p>&copy Grow Vibes Music. All Right Reserved.</p>
-                        <div class="privacy"><a
-                                href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
+                        <div class="privacy">
+                            <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
+                            <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Cookies Policy</a>
+                        </div>
+                        <div class="privacy">
                         </div>
                     </div>
                 </div>
-                {{-- <div class="partner">
-                    <ul>
-                        <li><a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}"
-                                    alt=""></a></li>
-                        <li><a href="https://www.instagram.com/rasadafm/"><img
-                                    src="{{asset('img/partner/Rasadafm.png')}}" alt=""></a></li>
-                        <li><a href="https://www.instagram.com/lineupproject/"><img
-                                    src="{{asset('img/partner/lineupaja.png')}}" alt=""></a></li>
-                        <li><a href="https://www.wami.id/"><img src="{{asset('img/partner/wami.png')}}" alt=""></a></li>
-                        <li><a href="https://www.ppluk.com/"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/sooundsession/"><img
-                                    src="{{asset('img/partner/sooundsession.png')}}" alt=""></a></li>
-                    </ul>
-                </div> --}}
+                <div class="sec partner d-flex flex-row bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">
+                        <a href="https://www.instagram.com/jccfmradio/"><img src="{{asset('img/partner/jcc.png')}}"
+                                alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/rasadafm/"><img src="{{asset('img/partner/rasadafm.png')}}"
+                                alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/lineupproject/"><img
+                                src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.wami.id/"><img src="{{asset('img/partner/wahanamusicindonesia.png')}}"
+                                alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/sooundsession/"><img
+                                src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
+                                src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/redclipsmv/"><img
+                                src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                    {{-- <li><a href="https://www.ppluk.com/"><img style="width: 65px; margin:auto;" src="{{asset('img/partner/ppl2.png')}}"
+                    alt=""></a>
+                    </li> --}}
+                </div>
             </div>
         </div>
     </div>

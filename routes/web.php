@@ -42,3 +42,7 @@ return view('/privacy');
 Route::get('/swiper', function () {
 return view('/swiper');
 })->name('swiper');
+
+Route::get('/creator', function () {
+return view('/creator');
+})->name('creator');
