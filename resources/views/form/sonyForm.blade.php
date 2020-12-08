@@ -44,7 +44,7 @@
                     placeholder="https://drive.google.com/file/d/example/view?usp=sharing">
             </div>
             <div class="form-group">
-                <label for="" class="lable-form-check">Colaboration?</label>
+                <label for="" class="lable-form-check">Collaboration?</label>
                 <div class="form-check">
                     <input class="form-check-input colab-input" type="radio" name="colaboration" id="yes" value="yes">
                     <label class="form-check-label" for="yes">
