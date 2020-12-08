@@ -767,8 +767,17 @@ footer p {
         background: rgba(255, 255, 255, 0.13);
         padding: 10px 10px;
     }
+    .banner-c {
+        overflow: hidden;
+        max-width: 1600px;
+        max-height: 400px;
+        margin: auto;
+        width: 100%;
+        /* padding: 0px 50px 0px 50px; */
+        margin: 30px 0px;
+    }
     .banner-c img {
-        /* transform: scale(2); */
+        transform: scale(1.8);
     }
     footer {
         padding: 40px;
