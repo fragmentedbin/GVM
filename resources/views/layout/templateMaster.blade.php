@@ -75,11 +75,7 @@ $featureAccess = 0;
     $(document).ready(function() {
         $('.colab-input').click(function() {
             $colab = $(this).val();
-            // if ($colab === 'no') {
-            //     // $('.colab-yes').attr(hidden)
-            // }
             if ($colab == 'yes') {
-                // alert('delete');
                 $('.colab-yes').attr('hidden', false);
             }
             if ($colab == 'no') {

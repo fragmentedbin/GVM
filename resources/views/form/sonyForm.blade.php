@@ -60,7 +60,7 @@
             </div>
             <div class="form-group colab-yes" hidden>
                 <label for="">Fill this field if you did collaboration for this song </label>
-                <div class="form-row">
+                <div class="form-row form-row-colab">
                     <br>
                     <div class="col">
                         <label for="firstnNme">First Name collaborator</label>
@@ -99,7 +99,7 @@
                     <label class="custom-file-label form-control-lg" for="customFile">Choose file</label>
                 </div>
             </div>
-            <div class="form-check">
+            <div class="form-check agrement-check">
                 <input type="checkbox" class="form-check-input" id="check-agree">
                 <label class="form-check-label" for="check-agree">Agree our <a data-toggle="modal"
                         data-target="#exampleModalCenter" href="">terms and conditions</a></label>

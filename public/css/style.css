@@ -29,6 +29,39 @@ h1 {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.form-row {
+    padding: 10px;
+    margin: 10px 0px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.form-row-colab {
+    padding: 0!important;
+    margin: 0!important;
+    border: none;
+    /* border-radius: 10px; */
+}
+
+.form-group {
+    padding: 10px;
+    margin: 10px 0px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.colab-yes {
+    width: 99%;
+    margin: 10px auto auto auto;
+    border: 3px solid #8d2626;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.colab-no {
+    display: none;
+}
+
 .grid-item {
     margin: auto auto auto 0px;
     /* margin-left: 0; */
@@ -449,7 +482,7 @@ button:active {
 
 .banner-c {
     overflow: hidden;
-    max-width: 1600px;
+    max-width: 1200px;
     max-height: 400px;
     width: 100%;
     /* padding: 50px 0px 100px 0px; */
@@ -472,6 +505,10 @@ button:active {
 
 .lable-form-check {
     font-size: large;
+}
+
+.agrement-check {
+    margin-top: 10px;
 }
 
 
