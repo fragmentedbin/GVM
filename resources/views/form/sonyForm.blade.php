@@ -166,7 +166,7 @@
                     <div class="ml-auto p-2">
                         <button type="reset" class="btn btn-danger" onClick="window.location.reload();">Reset <i
                                 class="fal fa-sync"></i></button>
-                        <button type="submit" id="form-submit" class="btn btn-primary" disabled>Submit</button>
+                        <button type="submit" id="form-submit" class="btn btn-primary sony" disabled>Submit</button>
                     </div>
                 </div>
             </form>
