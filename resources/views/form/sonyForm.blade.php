@@ -3,7 +3,7 @@
 <div class="container-content">
     <div class="wrapper-content">
         <div class="container">
-            <form class="form" action="" method="GET" enctype="multipart/form-data">
+            <form class="form needs-validation" action="" method="GET" enctype="multipart/form-data">
                 <div class="banner-c">
                     <div class="d-flex justify-content-center" style="background: url('')no-repeat center center;">
                         <img src="{{asset('/img/form/sony.png')}}" alt="">

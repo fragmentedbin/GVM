@@ -65,7 +65,7 @@
                             <a class="dropdown-item @if (Route::current()->getName() === 'artist')active active-c @endif"
                                 href="{{ url('#' )}}">Artists</a>
                             <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
-                                data-toggle="modal" data-target=".bd-example-modal-lg" href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
+                                data-toggle="modal" data-target=".partner-modal" href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
                         </div>
                     </li>
 
@@ -80,11 +80,11 @@
     </div>
 </div>
 {{-- MODAL --}}
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade partner-modal" tabindex="-1" role="dialog" aria-labelledby="modal-partner-large" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+      <div class="modal-content modal-partner">
         <div class="modal-header">
-            <h5 class="modal-title" style="color:black;" id="exampleModalLongTitle">Partner Labels</h5>
+            <h5 class="modal-title" style="color:black;" id="partnerModal">Partner Labels</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -99,6 +99,9 @@
                 <div class="row-inner"><a target="_blank" href="https://www.instagram.com/aksata_suara/"><img class="lable-img" src="{{asset('img/lable/aksatasuara.png')}}" alt=""></a></div>
             </div>
         </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
       </div>
     </div>
   </div>
