@@ -1,5 +1,6 @@
 @extends('layout/templateMaster')
 @section('content')
+
 <div class="container-content">
     <div class="wrapper-content">
         <div class="section">
@@ -20,13 +21,14 @@
                         <div class="side-content">
                             <div class="slide-artist"><strong>anntypi</strong></div>
                             <div class="slide-song"><b>Love</b></div>
-                            <div class="listen-platform" >
+                            <div class="listen-platform">
                                 <a href="http://open.spotify.com/album/5F5pcfeUOrqPYLR36gK3Wz" target="_blank">
                                     <img class="platform-img" src="{{asset('img/svg/spotify.svg')}}" alt="">
                                 </a>
                             </div>
                             <div class="listen-platform">
-                                <a href="https://geo.itunes.apple.com/at/album/id1525341390?at=1l3v9Tx&app=itunes" target="_blank">
+                                <a href="https://geo.itunes.apple.com/at/album/id1525341390?at=1l3v9Tx&app=itunes"
+                                    target="_blank">
                                     <img class="platform-img" src="{{asset('img/svg/apple-music.svg')}}" alt="">
                                 </a>
                             </div>
@@ -61,5 +63,4 @@
         </div>
     </div>
 </div>
-
 @endsection

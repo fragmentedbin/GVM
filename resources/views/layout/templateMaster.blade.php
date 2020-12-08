@@ -34,9 +34,11 @@ $featureAccess = 0;
 </head>
 
 <body>
+
     @include('layout/_nav')
     @yield('content')
     @include('layout._footer')
+
 </body>
 <!-- jQuery -->
 {{-- <script type=" text/javascript" src="{{asset('js/jquery.min.js')}} defer"></script> --}}
