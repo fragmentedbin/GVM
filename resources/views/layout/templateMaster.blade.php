@@ -34,9 +34,12 @@ $featureAccess = 0;
 </head>
 
 <body>
-
-    @include('layout/_nav')
-    @yield('content')
+    <div class="container-mstr">
+        <div class="wrapper-mstr">
+            @include('layout/_nav')
+            @yield('content')
+        </div>
+    </div>
     @include('layout._footer')
 
 </body>
