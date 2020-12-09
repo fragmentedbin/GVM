@@ -288,7 +288,7 @@ Bundled Only: Yes / No
 Lyric Or No:
 @endsection
 
-<select id="type">
+{{-- <select id="type">
     <option value="item0">--Select an Item--</option>
     <option value="item1">item1</option>
     <option value="item2">item2</option>
@@ -314,4 +314,4 @@ Lyric Or No:
         }
     });
 });
-</script>
+</script> --}}
