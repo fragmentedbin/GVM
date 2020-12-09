@@ -65,14 +65,15 @@
                 <div class="sec partner">
                     <div class="grid-container">
                         <div class="grid-item">
+                            <p>supported by:</p>
                             <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner"
                                     src="{{asset('img/partner/jcc.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img class="img-partner"
                                     src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/lineupproject/"><img
                                     class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner"
-                                    src="{{asset('img/partner/wahanamusicindonesia.png')}}" alt=""></a></div>
+                        {{-- <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner"
+                                    src="{{asset('img/partner/wahanamusicindonesia.png')}}" alt=""></a></div> --}}
                         <div class="grid-item"><a href="https://www.instagram.com/sooundsession/"><img
                                     class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a>
                         </div>
@@ -83,6 +84,8 @@
                                     src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://soundfren.id//"><img class="img-partner"
                                     src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
+                        {{-- <div class="grid-item"><a href="https://www.ppluk.com/"><img class="img-partner"
+                                    src="{{asset('img/partner/ppl2.png')}}" alt=""></a></div> --}}
                         <div class="grid-item"><a href="https://www.instagram.com/indonesiadancechart/"><img
                                     class="img-partner" src="{{asset('img/partner/indonesiadancingchart.png')}}"
                                     alt=""></a></div>
