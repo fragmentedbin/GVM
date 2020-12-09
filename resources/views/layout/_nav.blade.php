@@ -84,7 +84,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content modal-partner">
         <div class="modal-header">
-            <h5 class="modal-title" style="color:black;" id="partnerModal">Partner Labels</h5>
+            <h5 class="modal-title" style="color:#fff;" id="partnerModal">Partner Labels</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>

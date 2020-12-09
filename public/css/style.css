@@ -271,8 +271,17 @@ button:active {
     }
 }
 
+.modal-header {
+    border-bottom: 0px solid #dee2e6 !important;
+}
+
+.modal-footer {
+    border: 0px solid #dee2e6!important;
+}
+
 .modal-partner {
     padding: 13px;
+    background-color: #1b1b1b;
 }
 
 .row-c {
@@ -287,8 +296,9 @@ button:active {
 
 .partner-labels {
     border-radius: 1%;
-    background: rgb(118, 46, 148);
-    background: linear-gradient(318deg, rgba(118, 46, 148, 1) 0%, rgba(104, 104, 255, 1) 100%);
+    /* background-color: transparent; */
+    background: #000000;
+    /* background: linear-gradient(0deg, rgba(118, 46, 148, 1) 0%, rgba(0, 0, 0, 1) 10%); */
 }
 
 .lable-img {
@@ -935,13 +945,16 @@ footer p {
     }
     .slide-content img {
         /* margin: auto; */
-        display: flex;
+        /* display: flex; */
         width: 250px;
         height: 250px;
     }
     .side-content {
         /* display: block!important; */
         width: 100%;
+    }
+    .sec-container {
+        margin: auto;
     }
 }
 
