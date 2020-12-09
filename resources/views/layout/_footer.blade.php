@@ -65,7 +65,7 @@
                 <div class="sec partner">
                     <div class="grid-container">
                         <div class="grid-item">
-                            <p>supported by:</p>
+                            <p>Supported by:</p>
                             <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner"
                                     src="{{asset('img/partner/jcc.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img class="img-partner"
