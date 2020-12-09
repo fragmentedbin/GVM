@@ -55,7 +55,7 @@
                         </div>
                     </li>
                     <li
-                        class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
+                        class="nav-item dropdown @if  (Route::current()->named('creator', 'artist')) active active-c @endif ">
                         <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Creators

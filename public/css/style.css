@@ -284,6 +284,11 @@ button:active {
     background-color: #1b1b1b;
 }
 
+.termModal {
+    color: black;
+    padding: 0px 2rem;
+}
+
 .row-c {
     display: flex;
     flex-wrap: wrap;
@@ -696,10 +701,8 @@ footer p {
 }
 
 .img-partner {
-    max-width: 100px;
+    max-width: 115px;
 }
-
-.partner ul li {}
 
 .partner ul li img {
     flex-flow: wrap;

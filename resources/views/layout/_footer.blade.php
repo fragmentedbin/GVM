@@ -65,26 +65,29 @@
                 <div class="sec partner">
                     <div class="grid-container">
                         <div class="grid-item">
-                            <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner" src="{{asset('img/partner/jcc.png')}}"
-                                    alt=""></a></div>
-                        <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img
-                                    class="img-partner" src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
+                            <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner"
+                                    src="{{asset('img/partner/jcc.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img class="img-partner"
+                                    src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/lineupproject/"><img
                                     class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner" src="{{asset('img/partner/wahanamusicindonesia.png')}}"
-                                    alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner"
+                                    src="{{asset('img/partner/wahanamusicindonesia.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/sooundsession/"><img
-                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a></div>
+                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a>
+                        </div>
                         <div class="grid-item"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
-                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img
-                                    class="img-partner" src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://soundfren.id//"><img
-                                    class="img-partner" src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://www.ppluk.com/"><img
-                                    class="img-partner" src="{{asset('img/partner/ppl2.png')}}" alt=""></a></div>
+                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a>
+                        </div>
+                        <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img class="img-partner"
+                                    src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://soundfren.id//"><img class="img-partner"
+                                    src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
+                        <div class="grid-item"><a href="https://www.ppluk.com/"><img class="img-partner"
+                                    src="{{asset('img/partner/ppl2.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/indonesiadancechart/"><img
-                                    class="img-partner" src="{{asset('img/partner/indonesiadancingchart.png')}}" alt=""></a></div>
+                                    class="img-partner" src="{{asset('img/partner/indonesiadancingchart.png')}}"
+                                    alt=""></a></div>
                     </div>
                 </div>
                 <div class="copyRight">
@@ -93,7 +96,7 @@
                         <p>&copy Grow Vibes Music. All Right Reserved.</p>
                         <div class="privacy">
                             <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
-                            <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Cookies Policy</a>
+                            <a href="" data-toggle="modal" data-target="#modalCookie">Cookies Policy</a>
                         </div>
                     </div>
                 </div>
@@ -101,13 +104,75 @@
         </div>
     </div>
 </footer>
-{{-- <div class="sponsor-slider">
-                                    <div class="carousel owl-carousel">
-                                        <div class="card card"><img src="{{asset('img/partner/jcc.png')}}" alt="">
+{{-- MODAL COOKIE --}}
+<!-- Modal -->
+<div class="modal fade" id="modalCookie" tabindex="-1" role="dialog" aria-labelledby="modalCookieCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" style="color:black;" id="modalCookieLongTitle">Cookies Policy for Grow Vibes Music</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p style="color: black">
+                    This is the Cookie Policy for growvibesmusic, accessible from
+                    <a href="https://growvibesmusic.com">(https://growvibesmusic.com)</a><br><br>
+
+                    <b>What Are Cookies</b><br>
+
+                    As is common practice with almost all professional websites this site uses cookies, which are tiny
+                    files that are downloaded to your computer, to improve your experience. This page describes what
+                    information they gather, how we use it and why we sometimes need to store these cookies. We will
+                    also share how you can prevent these cookies from being stored however this may downgrade or 'break'
+                    certain elements of the sites functionality.<br><br>
+
+                    <b>How We Use Cookies</b> <br>
+
+                    We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no
+                    industry standard options for disabling cookies without completely disabling the functionality and
+                    features they add to this site. It is recommended that you leave on all cookies if you are not sure
+                    whether you need them or not in case they are used to provide a service that you use.<br><br>
+
+                    <b>Disabling Cookies</b> <br>
+
+                    You can prevent the setting of cookies by adjusting the settings on your browser (see your browser
+                    Help for how to do this). Be aware that disabling cookies will affect the functionality of this and
+                    many other websites that you visit. Disabling cookies will usually result in also disabling certain
+                    functionality and features of the this site. Therefore it is recommended that you do not disable
+                    cookies.<br><br>
+
+                    <h3><b>The Cookies We Set</b></h3> <br>
+
+                    <b>Forms related cookies</b> <br>
+
+                    When you submit data to through a form such as those found on contact pages or comment forms cookies
+                    may be set to remember your user details for future correspondence.<br><br>
+
+                    <b>Third Party Cookies</b> <br>
+
+                    In some special cases we also use cookies provided by trusted third parties. The following section
+                    details which third party cookies you might encounter through this site.<br><br>
+
+                    We also use social media buttons and/or plugins on this site that allow you to connect with your
+                    social network in various ways. For these to work the following social media sites including; {List
+                    the social networks whose features you have integrated with your site?:12}, will set cookies through
+                    our site which may be used to enhance your profile on their site or contribute to the data they hold
+                    for various purposes outlined in their respective privacy policies.<br><br>
+
+                    <b>More Information</b> <br>
+
+                    Hopefully that has clarified things for you and as was previously mentioned if there is something
+                    that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it
+                    does interact with one of the features you use on our site.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary modal-accept" data-dismiss="modal">Accept</button>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="card card"><img src="{{asset('img/partner/rasadafm.png')}}" alt=""></div>
-<div class="card card"><img src="{{asset('img/partner/lineupaja.png')}}" alt=""></div>
-<div class="card card"><img src="{{asset('img/partner/wami.png')}}" alt=""></div>
-<div class="card card"><img src="{{asset('img/partner/ppl.svg')}}" alt=""></div>
-</div>
-</div> --}}
+{{-- ------------ --}}
