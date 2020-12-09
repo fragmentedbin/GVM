@@ -32,7 +32,35 @@
             </div>
             <div class="form-group">
                 <label for="genre">Genre</label>
-                <input type="text" class="form-control form-control-lg" id="genre" placeholder="Genre">
+                <select name="genre" class="form-control form-control-lg" id="genre">
+                    <option>-- Choose a genre --</option>
+                    <option value="African">African</option>
+                    <option value="Alternative">Alternative</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Asian">Asian</option>
+                    <option value="Blues">Blues</option>
+                    <option value="Brazilian">Brazilian</option>
+                    <option value="Children Music">Children Music</option>
+                    <option value="Christian &amp; Gospel">Christian &amp; Gospel</option>
+                    <option value="Classical">Classical</option>
+                    <option value="Country">Country</option>
+                    <option value="Dance">Dance</option>
+                    <option value="Easy Listening">Easy Listening</option>
+                    <option value="Electronic">Electronic</option>
+                    <option value="Folk">Folk</option>
+                    <option value="Hip Hop/Rap">Hip Hop/Rap</option>
+                    <option value="Indie">Indie</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Latin">Latin</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Pop">Pop</option>
+                    <option value="R&amp;B/Soul">R&amp;B/Soul</option>
+                    <option value="Reggae">Reggae</option>
+                    <option value="Relaxation">Relaxation</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Various">Various</option>
+                    <option value="World Music / Regional Folklore">World Music / Regional Folklore</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="wav">Preview Track WAV 16 BIT 44,1 HZ (Require 16 BIT WAV 44,1 HZ Google Drive Link)</label>
@@ -90,6 +118,38 @@
                 </div>
             </div>
             <div class="form-group">
+                <label for="" class="lable-form-check">On Roster (Project)</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="on-roaster" id="confirm-yes-roaster" value="yes">
+                    <label class="form-check-label" for="confirm-yes-roaster">
+                        YES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="on-roaster" id="confirm-no-roaster" value="no">
+                    <label class="form-check-label" for="confirm-no-roaster">
+                        NO
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="" class="lable-form-check">Explicit?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="explicit" id="confirm-yes-explicit" value="yes">
+                    <label class="form-check-label" for="confirm-yes-explicit">
+                        YES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="explicit" id="confirm-no-explicit" value="no">
+                    <label class="form-check-label" for="confirm-no-explicit">
+                        NO
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label for="">Choose Your Logo Stage Name</label>
                 <br>
                 <label for=""><span style="color: red;">*</span>Note: max size 2MB</label>
@@ -97,6 +157,11 @@
                     <input type="file" class="custom-file-input" id="customFile" accept="image/*" name="filename">
                     <label class="custom-file-label form-control-lg" for="customFile">Choose file</label>
                 </div>
+            </div>
+            <div class="form-check agrement-check">
+                <input type="checkbox" class="form-check-input" id="check-agree">
+                <label class="form-check-label" for="check-agree">Agree our <a data-toggle="modal"
+                        data-target="#modalTerm" href="">terms and conditions</a></label>
             </div>
             <div class="form-check agrement-check">
                 <input type="checkbox" class="form-check-input" id="check-agree">

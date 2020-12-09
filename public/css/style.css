@@ -747,6 +747,26 @@ footer p {
 
 /* ------- */
 
+
+/* FAQ */
+
+.faq {
+    color: white;
+}
+
+.faq-qs {
+    background: black;
+    margin-top: 10px;
+}
+
+.show-btn {
+    position: relative;
+    right: 0;
+}
+
+
+/* --- */
+
 @media(max-width:680px) {
     .container-mstr {
         padding: 0px 50px;

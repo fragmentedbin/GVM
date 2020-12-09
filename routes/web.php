@@ -46,3 +46,7 @@ return view('/swiper');
 Route::get('/creator', function () {
 return view('/creator');
 })->name('creator');
+
+Route::get('/faq', function () {
+return view('/faq');
+})->name('faq');

@@ -63,7 +63,7 @@
                 </select>
             </div>
 
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="subgenre">Sub Genre</label>
                 <select name="subgenre" class="form-control form-control-lg" id="subgenre">
                     <option>-- Choose a Sub Genre --</option>
@@ -94,7 +94,7 @@
                     <option value="Various">Various</option>
                     <option value="World Music / Regional Folklore">World Music / Regional Folklore</option>
                 </select>
-            </div>
+            </div> --}}
 
             <div class="form-group">
                 <label for="wav">Preview Track WAV 16 BIT 44,1 HZ (Require 16 BIT WAV 44,1 HZ Google Drive Link)</label>

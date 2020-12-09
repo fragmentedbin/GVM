@@ -73,4 +73,8 @@ $(document).ready(function() {
         $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
     });
 
+    // SELECT GENRE //
+
+    // ------------ //
+
 });
