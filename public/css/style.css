@@ -93,11 +93,6 @@ button:active {
     transition: .9s;
 }
 
-.navbar-dark .navbar-toggler-icon:active {
-    width: 20px;
-    height: 30px;
-}
-
 .navbar-dark .navbar-toggler {
     border: 0px solid #fff;
     padding: 0px;
