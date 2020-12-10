@@ -39,7 +39,7 @@
                     </li>
                     <li
                         class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
-                        <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle releasesAnchor" id="sel-submitDemo" href="/" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Submit Demo
                         </a>

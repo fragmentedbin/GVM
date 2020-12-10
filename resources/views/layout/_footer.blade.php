@@ -40,7 +40,7 @@
                         <li><a href="#">Submit Demo</a></li>
                         <li><a href="#">Creators</a></li>
                         <li><a href="#">Who are we</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="{{url('/faq')}}">FAQ</a></li>
 
                     </ul>
                 </div>

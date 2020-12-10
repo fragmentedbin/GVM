@@ -5,6 +5,11 @@ $featureAccess = 0;
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GVM</title>
     <!--
 
     AUTHOR
@@ -13,12 +18,6 @@ $featureAccess = 0;
         CALL : (+62)22-9843-6631
     
     -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GVM</title>
-
     <!-- icon -->
     <link rel="icon" href="{{ asset ('img/gvm-logo.jpg')}}" type="image/x-icon">
     <!-- Font Awesome -->
