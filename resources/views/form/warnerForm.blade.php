@@ -97,7 +97,7 @@
             </div> --}}
 
             <div class="form-group">
-                <label for="wav">Preview Track WAV 16 BIT 44,1 HZ (Require 16 BIT WAV 44,1 HZ Google Drive Link)</label>
+                <label for="wav">Preview Track 16 BIT WAV 44,1 HZ (Require Link Google Drive)</label>
                 <br>
                 <label for="wav"><span style="color: red;">*</span>Note Expected to open request access if Google
                     Drive link given</label>

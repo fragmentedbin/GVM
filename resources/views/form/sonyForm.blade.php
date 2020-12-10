@@ -63,7 +63,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="wav">Preview Track WAV 16 BIT 44,1 HZ (Require 16 BIT WAV 44,1 HZ Google Drive Link)</label>
+                <label for="wav">Preview Track 16 BIT WAV 44,1 HZ (Require Link Google Drive)</label>
                 <br>
                 <label for="wav"><span style="color: red;">*</span>Note Expected to open request access if Google
                     Drive link given</label>
@@ -87,7 +87,7 @@
             </div>
             <div class="form-group colab-yes" hidden>
                 <label for="">Fill this field if you did collaboration for this song </label>
-                <div class="form-row form-row-colab">
+                <div class="form-row form-row-colab" collab="1">
                     <br>
                     <div class="col">
                         <label for="firstnNme">First Name collaborator</label>
@@ -97,6 +97,7 @@
                         <label for="lastName">Last Name collaborator</label>
                         <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Last name">
                     </div>
+                    {{-- <button id="add-more-collab" class="btn btn-primary btn-add-more-collab"><i class="far fa-plus"></i></button> --}}
                 </div>
             </div>
             <div class="form-group">
@@ -157,11 +158,6 @@
                     <input type="file" class="custom-file-input" id="customFile" accept="image/*" name="filename">
                     <label class="custom-file-label form-control-lg" for="customFile">Choose file</label>
                 </div>
-            </div>
-            <div class="form-check agrement-check">
-                <input type="checkbox" class="form-check-input" id="check-agree">
-                <label class="form-check-label" for="check-agree">Agree our <a data-toggle="modal"
-                        data-target="#modalTerm" href="">terms and conditions</a></label>
             </div>
             <div class="form-check agrement-check">
                 <input type="checkbox" class="form-check-input" id="check-agree">
