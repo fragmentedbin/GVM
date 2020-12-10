@@ -69,7 +69,6 @@ $featureAccess = 0;
 <script defer src="https://pro.fontawesome.com/releases/v5.13.1/css/all.css"></script>
 <script>
     $(document).ready(function() {
-
     $('.colab-input').click(function() {
         $colab = $(this).val();
         if ($colab == 'yes') {
@@ -142,20 +141,20 @@ $featureAccess = 0;
     $("body").on("click", ".show-less-link", function() {
         event.preventDefault();
         $(this).parent(".read-more").html(readMoreHTML.substr(0, stringLimit)).append("<a href='' class='read-more-link'> Read more..</a>");
-    });
 
-    
-    // $('#add-more-collab')click(function(e){
-    //     $a = $(this).attr('collab');
-    //     alert($a);
-    //     e.preventDefault;
-    // });
+    });
+    $('body').on("click", ".btn-add-more-collab", function(e) {
+        var a = $(".btn-add-more-collab").attr('class');
+        alert(a);
+        e.preventDefault;
+    });
+}); 
 
 // SELECT GENRE //
 
 // ------------ //
 
-});
+
 </script>
 
 </html>

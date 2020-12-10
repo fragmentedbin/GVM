@@ -97,8 +97,8 @@
                         <label for="lastName">Last Name collaborator</label>
                         <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Last name">
                     </div>
-                    {{-- <button id="add-more-collab" class="btn btn-primary btn-add-more-collab"><i class="far fa-plus"></i></button> --}}
                 </div>
+                {{-- <button type="button" id="add-more-collab" class="btn btn-primary btn-add-more-collab"><i class="far fa-plus"></i></button> --}}
             </div>
             <div class="form-group">
                 <label for="" class="lable-form-check">Confirm that The Composer Name filled contains full legal of
