@@ -90,10 +90,17 @@ button:active {
     background-image: url('../img/svg/menu-collapse.svg');
     width: 30px;
     height: 30px;
+    transition: .9s;
+}
+
+.navbar-dark .navbar-toggler-icon:active {
+    width: 20px;
+    height: 30px;
 }
 
 .navbar-dark .navbar-toggler {
-    border: 1px solid #fff;
+    border: 0px solid #fff;
+    padding: 0px;
 }
 
 @font-face {
@@ -888,6 +895,7 @@ footer p {
     } */
     .navbar-nav {
         padding: 10px 0px;
+        background: rgba(0, 0, 0, 0.185);
     }
     .nav-item {
         margin: 0px;

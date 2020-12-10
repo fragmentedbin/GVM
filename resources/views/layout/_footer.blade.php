@@ -67,39 +67,39 @@
                         <div class="grid-item">
                             <p>Supported by:</p>
                             <a href="https://www.instagram.com/jccfmradio/"><img class="img-partner"
-                                    src="{{asset('img/partner/jcc.png')}}" alt=""></a></div>
+                                    src="{{asset('img/partner/jcc.png')}}" alt=""></a>
+                        </div>
                         <div class="grid-item"><a href="https://www.instagram.com/rasadafm/"><img class="img-partner"
                                     src="{{asset('img/partner/rasadafm.png')}}" alt=""></a></div>
                         <div class="grid-item"><a href="https://www.instagram.com/lineupproject/"><img
                                     class="img-partner" src="{{asset('img/partner/lineup.png')}}" alt=""></a></div>
                         {{-- <div class="grid-item"><a href="https://www.wami.id/"><img class="img-partner"
-                                    src="{{asset('img/partner/wahanamusicindonesia.png')}}" alt=""></a></div> --}}
-                        <div class="grid-item"><a href="https://www.instagram.com/sooundsession/"><img
-                                    class="img-partner" src="{{asset('img/partner/soundsession.png')}}" alt=""></a>
-                        </div>
-                        <div class="grid-item"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
-                                    class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a>
-                        </div>
-                        <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img class="img-partner"
-                                    src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
-                        <div class="grid-item"><a href="https://soundfren.id//"><img class="img-partner"
-                                    src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
-                        {{-- <div class="grid-item"><a href="https://www.ppluk.com/"><img class="img-partner"
-                                    src="{{asset('img/partner/ppl2.png')}}" alt=""></a></div> --}}
-                        <div class="grid-item"><a href="https://www.instagram.com/indonesiadancechart/"><img
-                                    class="img-partner" src="{{asset('img/partner/indonesiadancingchart.png')}}"
-                                    alt=""></a></div>
+                                    src="{{asset('img/partner/wahanamusicindonesia.png')}}" alt=""></a>
+                    </div> --}}
+                    <div class="grid-item"><a href="https://www.instagram.com/sooundsession/"><img class="img-partner"
+                                src="{{asset('img/partner/soundsession.png')}}" alt=""></a>
                     </div>
-                </div>
-                <div class="copyRight">
-                    <p><img src="{{asset('/img/svg/flag-indonesia.svg')}}" alt=""> Indonesia</p>
-                    <div class="copyright-sec">
-                        <p>&copy Grow Vibes Music. All Right Reserved.</p>
-                        <div class="privacy">
-                            <a href="@if($featureAccess == 0) # @else {{url('/privacy')}} @endif ">Privacy Policy</a>
-                            <a href="" data-toggle="modal" data-target="#modalCookie">Cookies Policy</a>
-                        </div>
+                    <div class="grid-item"><a href="https://www.instagram.com/lokalitukeren/?hl=id"><img
+                                class="img-partner" src="{{asset('img/partner/lokalitukeren.png')}}" alt=""></a>
                     </div>
+                    <div class="grid-item"><a href="https://www.instagram.com/redclipsmv/"><img class="img-partner"
+                                src="{{asset('img/partner/redlipsmv.png')}}" alt=""></a></div>
+                    <div class="grid-item"><a href="https://soundfren.id//"><img class="img-partner"
+                                src="{{asset('img/partner/soundfren.png')}}" alt=""></a></div>
+                    {{-- <div class="grid-item"><a href="https://www.ppluk.com/"><img class="img-partner"
+                                    src="{{asset('img/partner/ppl2.png')}}" alt=""></a>
+                </div> --}}
+                <div class="grid-item"><a href="https://www.instagram.com/indonesiadancechart/"><img class="img-partner"
+                            src="{{asset('img/partner/indonesiadancingchart.png')}}" alt=""></a></div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p><img src="{{asset('/img/svg/flag-indonesia.svg')}}" alt=""> Indonesia</p>
+            <div class="copyright-sec">
+                <p>&copy Grow Vibes Music. All Right Reserved.</p>
+                <div class="privacy">
+                    <a href="" data-toggle="modal" data-target="#modalPrivacyPolicy">Privacy Policy</a>
+                    <a href="" data-toggle="modal" data-target="#modalCookie">Cookies Policy</a>
                 </div>
             </div>
         </div>
@@ -112,7 +112,8 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" style="color:black;" id="modalCookieLongTitle">Cookies Policy for Grow Vibes Music</h5>
+                <h5 class="modal-title" style="color:black;" id="modalCookieLongTitle">Cookies Policy for Grow Vibes
+                    Music</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -169,6 +170,124 @@
                     that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it
                     does interact with one of the features you use on our site.
                 </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary modal-accept" data-dismiss="modal">Accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PRIVACY POLICY -->
+<div class="modal fade" id="modalPrivacyPolicy" tabindex="-1" role="dialog"
+    aria-labelledby="modalPrivacyPolicyCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" style="color:black;" id="modalPrivacyPolicyLongTitle">Privacy Policy for Grow
+                    Vibes
+                    Music</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><span lang=IN>Recording Label
+                        Grow Vibes Music (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates
+                        Website Grow Vibes Music. This page informs you of our policies regarding the
+                        collection, use and disclosure of personal data when you use our Service and
+                        the choices you have associated with that data. This Privacy Policy is managed
+                        by Privacy Policy Generator.</span></p>
+
+                <p><span lang=IN>We use your data to
+                        provide and improve the Service. By using the Service, you agree to the
+                        collection and use of information in accordance with this policy. Unless
+                        otherwise defined in this Privacy Policy, the terms used in this Privacy Policy
+                        have the same meanings as in our Terms and Conditions.<br>
+                        <br>
+                    </span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Definitions
+                        </span></b></p>
+
+                <p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt'><span lang=IN
+                        style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+                            lang=IN style='font-size:12.0pt;line-height:107%'>Service</span></b></p>
+
+                <p class=MsoNormal><span lang=IN>Service means the pages web operated by
+                        Recording Label</span></p>
+
+                <p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt'><span lang=IN
+                        style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+                            lang=IN style='font-size:12.0pt;line-height:107%'>Personal Data </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>Personal Data means data about a living
+                        individual who can be identified from those data (or from those and other
+                        information either in our possession or likely to come into our possession).</span></p>
+
+                <p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt'><span lang=IN
+                        style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+                            lang=IN style='font-size:12.0pt;line-height:107%'>Usage Data </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>Usage Data is data collected automatically
+                        either generated by the use of the Service or from the Service infrastructure
+                        itself (for example, the duration of a page visit).</span></p>
+
+                <p class=MsoListParagraphCxSpFirst style='margin-left:14.2pt;text-indent:-14.2pt'><span lang=IN
+                        style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+                            lang=IN style='font-size:12.0pt;line-height:107%'>Types of Data Collected </span></b></p>
+
+                <p class=MsoListParagraphCxSpLast style='margin-left:14.2pt;text-indent:-14.2pt'><span lang=IN
+                        style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+                            lang=IN style='font-size:12.0pt;line-height:107%'>Personal Data </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>While using our Service, we may ask you to
+                        provide us with certain personally identifiable information that can be used to
+                        contact or identify you (&quot;Personal Data&quot;).</span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Cookies
+                        </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>Cookies are small files stored on your device
+                        (computer or mobile device).</span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Information
+                            Collection and Use </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>We collect several different types of
+                        information for various purposes to provide and improve our Service to you.</span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Security
+                            of Data </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>The security of your data is important to us
+                        but remember that no method of transmission over the Internet or method of
+                        electronic storage is 100% secure. While we strive to use commercially acceptable
+                        means to protect your Personal Data, we cannot guarantee its absolute security.</span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Service
+                            Providers </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>We may employ third party companies and
+                        individuals to facilitate our Service (&quot;Service Providers&quot;), provide
+                        the Service on our behalf, perform Service-related services or assist us in
+                        analysing how our Service is used. These third parties have access to your
+                        Personal Data only to perform these tasks on our behalf and are obligated not
+                        to disclose or use it for any other purpose.</span></p>
+
+                <p class=MsoNormal><b><span lang=IN style='font-size:14.0pt;line-height:107%'>Links
+                            to Other Sites </span></b></p>
+
+                <p class=MsoNormal><span lang=IN>Our Service may contain links to other sites
+                        that are not operated by us. If you click a third party link, you will be
+                        directed to that third party's site. We strongly advise you to review the
+                        Privacy Policy of every site you visit. We have no control over and assume no
+                        responsibility for the content, privacy policies or practices of any third
+                        party sites or services.</span></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary modal-accept" data-dismiss="modal">Accept</button>
