@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # Force Redirect HTTP to HTTPS
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://grow-vibes-music.herokuapp.com/$1 [R,L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -46,4 +50,6 @@ AddOutputFilterByType DEFLATE font/opentype
 BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+#
 </IfModule>
