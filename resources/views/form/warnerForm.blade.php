@@ -183,21 +183,7 @@
                     </label>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="" class="lable-form-check">Explicit?</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="explicit" id="confirm-yes-explicit" value="yes">
-                    <label class="form-check-label" for="confirm-yes-explicit">
-                        YES
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="explicit" id="confirm-no-explicit" value="no">
-                    <label class="form-check-label" for="confirm-no-explicit">
-                        NO
-                    </label>
-                </div>
-            </div>     
+          
             <div class="form-group">
                 <label for="" class="lable-form-check">Lyric</label>
                 <div class="form-check">
@@ -212,6 +198,10 @@
                         NO
                     </label>
                 </div>
+            </div>
+            <div class="form-group lyric-yes" hidden>
+                <label for="lyric">Lyric</label>
+                <textarea class="form-control col-md-6" id="lyric" rows="5"></textarea>
             </div>
             <div class="form-group">
                 <label for="">Choose Your Logo Stage Name</label>
@@ -305,7 +295,7 @@
     </div>
 </div>
 
-Genre:
+{{-- Genre:
 Explicit: Yes / No
 *Choose
 Metadata Language:
@@ -314,7 +304,7 @@ Audio Presentation:
 Choose between: * CD Master, Dolby Surround 5.1, Dolby Surround 7.1, DTS Surround 5.1, Mono, MQS Mono, MQS Stereo,
 Specialized Master, Stereo, Vinyl Master *
 Bundled Only: Yes / No
-Lyric Or No:
+Lyric Or No: --}}
 @endsection
 
 {{-- <select id="type">
