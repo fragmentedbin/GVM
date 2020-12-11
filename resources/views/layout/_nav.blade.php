@@ -39,8 +39,9 @@
                     </li>
                     <li
                         class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
-                        <a class="nav-link dropdown-toggle releasesAnchor" id="sel-submitDemo" href="/" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle releasesAnchor" id="sel-submitDemo" href="/"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Submit Demo
                         </a>
                         <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
@@ -65,44 +66,57 @@
                             <a class="dropdown-item @if (Route::current()->getName() === 'artist')active active-c @endif"
                                 href="{{ url('#' )}}">Artists</a>
                             <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
-                                data-toggle="modal" data-target=".partner-modal" href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
+                                data-toggle="modal" data-target=".partner-modal"
+                                href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
                         </div>
                     </li>
-
-
                     <li class="nav-item @if (Route::current()->getName() === 'profileGvm')active active-c @endif">
                         <a class="nav-link" href="@if($featureAccess == 0) # @else {{ url('profileGvm' )}} @endif "> Who
                             We Are</a>
                     </li>
+                    {{-- <li class="nav-item ml-0 mr-0">
+                        <a href="" class="nav-link nav-user align-items-center">
+                            <div class="user-pict-nav"></div>
+                            <p class="my-0">admin</p>
+                        </a>
+                    </li> --}}
                 </ul>
             </div>
         </nav>
     </div>
 </div>
 {{-- MODAL --}}
-<div class="modal fade partner-modal" tabindex="-1" role="dialog" aria-labelledby="modal-partner-large" aria-hidden="true">
+<div class="modal fade partner-modal" tabindex="-1" role="dialog" aria-labelledby="modal-partner-large"
+    aria-hidden="true">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content modal-partner">
-        <div class="modal-header">
-            <h5 class="modal-title" style="color:#fff;" id="partnerModal">Partner Labels</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="partner-labels">
-            <div class="row-c">
-                <div class="row-inner"><a target="_blank" href="https://linktr.ee/intersound"><img class="lable-img" src="{{asset('img/lable/intersoundstar.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://twentysevenwave.wixsite.com/tswr"><img class="lable-img" src="{{asset('img/lable/tswr.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://instabio.cc/NSNTRRecords"><img class="lable-img" src="{{asset('img/lable/nsntr.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://www.instagram.com/on_musik/"><img class="lable-img" src="{{asset('img/lable/onmusic.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://campsite.bio/dragonrproduction"><img class="lable-img" src="{{asset('img/lable/ryuzakirama.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://www.instagram.com/aksata_suara/"><img class="lable-img" src="{{asset('img/lable/aksatasuara.png')}}" alt=""></a></div>
-                <div class="row-inner"><a target="_blank" href="https://linktr.ee/riseupfams"><img class="lable-img" src="{{asset('img/lable/riseupfams.png')}}" alt=""></a></div>
+        <div class="modal-content modal-partner">
+            <div class="modal-header">
+                <h5 class="modal-title" style="color:#fff;" id="partnerModal">Partner Labels</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="partner-labels">
+                <div class="row-c">
+                    <div class="row-inner"><a target="_blank" href="https://linktr.ee/intersound"><img class="lable-img"
+                                src="{{asset('img/lable/intersoundstar.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://twentysevenwave.wixsite.com/tswr"><img
+                                class="lable-img" src="{{asset('img/lable/tswr.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://instabio.cc/NSNTRRecords"><img
+                                class="lable-img" src="{{asset('img/lable/nsntr.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://www.instagram.com/on_musik/"><img
+                                class="lable-img" src="{{asset('img/lable/onmusic.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://campsite.bio/dragonrproduction"><img
+                                class="lable-img" src="{{asset('img/lable/ryuzakirama.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://www.instagram.com/aksata_suara/"><img
+                                class="lable-img" src="{{asset('img/lable/aksatasuara.png')}}" alt=""></a></div>
+                    <div class="row-inner"><a target="_blank" href="https://linktr.ee/riseupfams"><img class="lable-img"
+                                src="{{asset('img/lable/riseupfams.png')}}" alt=""></a></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
         </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-      </div>
     </div>
-  </div>
+</div>
