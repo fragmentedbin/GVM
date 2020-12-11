@@ -183,7 +183,36 @@
                     </label>
                 </div>
             </div>
-
+            <div class="form-group">
+                <label for="" class="lable-form-check">Explicit?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="explicit" id="confirm-yes-explicit" value="yes">
+                    <label class="form-check-label" for="confirm-yes-explicit">
+                        YES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="explicit" id="confirm-no-explicit" value="no">
+                    <label class="form-check-label" for="confirm-no-explicit">
+                        NO
+                    </label>
+                </div>
+            </div>     
+            <div class="form-group">
+                <label for="" class="lable-form-check">Lyric</label>
+                <div class="form-check">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-yes-lyric" value="yes">
+                        <label class="form-check-label" for="confirm-yes-lyric">
+                        YES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-no-lyric" value="no">
+                        <label class="form-check-label" for="confirm-no-lyric">
+                        NO
+                    </label>
+                </div>
+            </div>
             <div class="form-group">
                 <label for="">Choose Your Logo Stage Name</label>
                 <br>

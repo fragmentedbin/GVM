@@ -148,8 +148,27 @@
                         NO
                     </label>
                 </div>
+            </div>     
+            <div class="form-group">
+                <label for="" class="lable-form-check">Lyric</label>
+                <div class="form-check">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-yes-lyric" value="yes">
+                        <label class="form-check-label" for="confirm-yes-lyric">
+                        YES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-no-lyric" value="no">
+                        <label class="form-check-label" for="confirm-no-lyric">
+                        NO
+                    </label>
+                </div>
             </div>
-
+            <div class="form-group lyric-yes" hidden>
+                <label for="lyric">Lyric</label>
+                <textarea class="form-control col-md-6" id="lyric" rows="5"></textarea>
+            </div>
+            
             <div class="form-group">
                 <label for="">Choose Your Logo Stage Name</label>
                 <br>

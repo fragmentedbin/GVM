@@ -81,6 +81,19 @@ $featureAccess = 0;
 
         }
     });
+    
+    $('.lyric-input').click(function() {
+        $lyric = $(this).val();
+        if ($lyric == 'yes') {
+            $('.lyric-yes').attr('hidden', false);
+        }
+        if ($lyric == 'no') {
+            // alert($lyric);
+            $('.lyric-yes').attr('hidden', true);
+        } else {
+
+        }
+    });
 
 
     $('#customFile').on('change', function() {

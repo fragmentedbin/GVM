@@ -97,6 +97,7 @@
                 <div class="row-inner"><a target="_blank" href="https://www.instagram.com/on_musik/"><img class="lable-img" src="{{asset('img/lable/onmusic.png')}}" alt=""></a></div>
                 <div class="row-inner"><a target="_blank" href="https://campsite.bio/dragonrproduction"><img class="lable-img" src="{{asset('img/lable/ryuzakirama.png')}}" alt=""></a></div>
                 <div class="row-inner"><a target="_blank" href="https://www.instagram.com/aksata_suara/"><img class="lable-img" src="{{asset('img/lable/aksatasuara.png')}}" alt=""></a></div>
+                <div class="row-inner"><a target="_blank" href="https://linktr.ee/riseupfams"><img class="lable-img" src="{{asset('img/lable/riseupfams.png')}}" alt=""></a></div>
             </div>
         </div>
         <div class="modal-footer">
