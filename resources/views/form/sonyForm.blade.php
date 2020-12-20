@@ -34,32 +34,16 @@
                 <label for="genre">Genre</label>
                 <select name="genre" class="form-control form-control-lg" id="genre">
                     <option>-- Choose a genre --</option>
-                    <option value="African">African</option>
-                    <option value="Alternative">Alternative</option>
-                    <option value="Arabic">Arabic</option>
-                    <option value="Asian">Asian</option>
-                    <option value="Blues">Blues</option>
-                    <option value="Brazilian">Brazilian</option>
-                    <option value="Children Music">Children Music</option>
-                    <option value="Christian &amp; Gospel">Christian &amp; Gospel</option>
                     <option value="Classical">Classical</option>
-                    <option value="Country">Country</option>
                     <option value="Dance">Dance</option>
-                    <option value="Easy Listening">Easy Listening</option>
                     <option value="Electronic">Electronic</option>
-                    <option value="Folk">Folk</option>
                     <option value="Hip Hop/Rap">Hip Hop/Rap</option>
                     <option value="Indie">Indie</option>
                     <option value="Jazz">Jazz</option>
-                    <option value="Latin">Latin</option>
                     <option value="Metal">Metal</option>
                     <option value="Pop">Pop</option>
-                    <option value="R&amp;B/Soul">R&amp;B/Soul</option>
-                    <option value="Reggae">Reggae</option>
                     <option value="Relaxation">Relaxation</option>
                     <option value="Rock">Rock</option>
-                    <option value="Various">Various</option>
-                    <option value="World Music / Regional Folklore">World Music / Regional Folklore</option>
                 </select>
             </div>
             <div class="form-group">
@@ -148,18 +132,20 @@
                         NO
                     </label>
                 </div>
-            </div>     
+            </div>
             <div class="form-group">
                 <label for="" class="lable-form-check">Lyric</label>
                 <div class="form-check">
-                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-yes-lyric" value="yes">
-                        <label class="form-check-label" for="confirm-yes-lyric">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-yes-lyric"
+                        value="yes">
+                    <label class="form-check-label" for="confirm-yes-lyric">
                         YES
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-no-lyric" value="no">
-                        <label class="form-check-label" for="confirm-no-lyric">
+                    <input class="form-check-input lyric-input" type="radio" name="lyric" id="confirm-no-lyric"
+                        value="no">
+                    <label class="form-check-label" for="confirm-no-lyric">
                         NO
                     </label>
                 </div>
@@ -168,7 +154,7 @@
                 <label for="lyric">Lyric</label>
                 <textarea class="form-control col-md-6" id="lyric" rows="5"></textarea>
             </div>
-            
+
             <div class="form-group">
                 <label for="">Choose Your Logo Stage Name</label>
                 <br>
@@ -204,36 +190,36 @@
                                         licenses
                                     </li>
                                     <li>
-                                         Your track NOT contain Public Domain Cash or Public Domain Composition
+                                        Your track NOT contain Public Domain Cash or Public Domain Composition
                                     </li>
                                     <li>
-                                         Your tracks NOT have sound from recorded video games or TV shows
+                                        Your tracks NOT have sound from recorded video games or TV shows
                                     </li>
                                     <li>
-                                         Your tracks NOT contain any existing YouTube video recordings that are not
+                                        Your tracks NOT contain any existing YouTube video recordings that are not
                                         exclusively controlled by you
                                     </li>
                                     <li>
-                                         You are 100% in control of your track
+                                        You are 100% in control of your track
                                     </li>
                                     <li>
-                                         Your track may NOT be under the auspices of another company, such as
+                                        Your track may NOT be under the auspices of another company, such as
                                         TuneCore, CD
                                         BABY, Ditto Music or others.
                                     </li>
                                     <li>
-                                         Your track does NOT contain Content such as beats / instrumentals which are
+                                        Your track does NOT contain Content such as beats / instrumentals which are
                                         available on behalf of third parties.
                                     </li>
                                     <li>
-                                         Your tracks are NOT purchased from or available for purchase on any Royalty
+                                        Your tracks are NOT purchased from or available for purchase on any Royalty
                                         Free
                                         Websites or music databases such as Audio Jungle, Theme Forest, Audio Micro,
                                         etc.
                                     </li>
                                 </ol>
                                 <br />
-                                <b >* All forms of copyright responsibility that involve the intellectual property of
+                                <b>* All forms of copyright responsibility that involve the intellectual property of
                                     track. Label, Distributor and Youtube Publishing are not responsible *</b>
                                 <br />
                                 <br />

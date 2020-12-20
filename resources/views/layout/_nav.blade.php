@@ -13,76 +13,84 @@
 </div>
 <div class="bottom-container-c">
     <div class="bottom-wrapper-c">
-        <nav class="navbar bottom navbar-expand-lg navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown @if (Route::current()->getName() === 'home')active active-c @endif ">
-                        <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Releases
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
-                            aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item @if (Route::current()->getName() === 'home')active active-c @endif"
-                                href="{{ url('' )}}">Single</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'ep')active active-c @endif"
-                                href="{{ url('' )}}">EP</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'lp')active active-c @endif"
-                                href="{{ url('' )}}">LP</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'album')active active-c @endif"
-                                href="{{ url('' )}}">Album</a>
-                        </div>
-                    </li>
-                    <li
-                        class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
-                        <a class="nav-link dropdown-toggle releasesAnchor" id="sel-submitDemo" href="/"
-                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            Submit Demo
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
-                            aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item @if (Route::current()->getName() === 'sonyForm')active active-c @endif"
-                                href="{{ url('/form/sonyForm' )}}">Sony Music</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
-                                href="{{ url('/form/warnerForm' )}}">Warner Music</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'submit')active active-c @endif"
-                                href="{{ url('' )}}">Our Distribution</a>
+        <div class="align-items-center">
 
-                        </div>
-                    </li>
-                    <li
-                        class="nav-item dropdown @if  (Route::current()->named('creator', 'artist')) active active-c @endif ">
-                        <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Creators
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
-                            aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item @if (Route::current()->getName() === 'artist')active active-c @endif"
-                                href="{{ url('#' )}}">Artists</a>
-                            <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
-                                data-toggle="modal" data-target=".partner-modal"
-                                href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
-                        </div>
-                    </li>
-                    <li class="nav-item @if (Route::current()->getName() === 'profileGvm')active active-c @endif">
-                        <a class="nav-link" href="@if($featureAccess == 0) # @else {{ url('profileGvm' )}} @endif "> Who
-                            We Are</a>
-                    </li>
-                    {{-- <li class="nav-item ml-0 mr-0">
-                        <a href="" class="nav-link nav-user align-items-center">
-                            <div class="user-pict-nav"></div>
-                            <p class="my-0">admin</p>
-                        </a>
-                    </li> --}}
-                </ul>
-            </div>
-        </nav>
+            <nav class="navbar bottom navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler button-nav-c" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li
+                            class="nav-item dropdown @if (Route::current()->getName() === 'home')active active-c @endif ">
+                            <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Releases
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item @if (Route::current()->getName() === 'home')active active-c @endif"
+                                    href="{{ url('' )}}">Single</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'ep')active active-c @endif"
+                                    href="{{ url('' )}}">EP</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'lp')active active-c @endif"
+                                    href="{{ url('' )}}">LP</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'album')active active-c @endif"
+                                    href="{{ url('' )}}">Album</a>
+                            </div>
+                        </li>
+                        <li
+                            class="nav-item dropdown @if  (Route::current()->named('sonyForm', 'warnerForm')) active active-c @endif ">
+                            <a class="nav-link dropdown-toggle releasesAnchor" id="sel-submitDemo" href="/"
+                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Submit Demo
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item @if (Route::current()->getName() === 'sonyForm')active active-c @endif"
+                                    href="{{ url('/form/sonyForm' )}}">Sony Music</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
+                                    href="{{ url('/form/warnerForm' )}}">Warner Music</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'submit')active active-c @endif"
+                                    href="{{ url('' )}}">Our Distribution</a>
+
+                            </div>
+                        </li>
+                        <li
+                            class="nav-item dropdown @if  (Route::current()->named('creator', 'artist')) active active-c @endif ">
+                            <a class="nav-link dropdown-toggle releasesAnchor" href="/" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Creators
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-c animate-menu slideIn-menu"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item @if (Route::current()->getName() === 'artist')active active-c @endif"
+                                    href="{{ url('#' )}}">Artists</a>
+                                <a class="dropdown-item @if (Route::current()->getName() === 'warnerForm')active active-c @endif"
+                                    data-toggle="modal" data-target=".partner-modal"
+                                    href="{{ url('/form/warnerForm' )}}">Partner Labels</a>
+                            </div>
+                        </li>
+                        <li class="nav-item @if (Route::current()->getName() === 'profileGvm')active active-c @endif">
+                            <a class="nav-link" href="@if($featureAccess == 0) # @else {{ url('profileGvm' )}} @endif ">
+                                Who
+                                We Are</a>
+                        </li>
+                    </ul>
+                </div>
+                {{-- <div class="user-nav d-flex algin-item-center">
+                    <div class="user-pict-nav ">
+                        <img src="{{asset('img/cover/lostpaper-paradise.jpg')}}" alt="">
+                    </div>
+                    <a href="#" class="">
+                        user
+                    </a>
+                </div> --}}
+            </nav>
+        </div>
     </div>
 </div>
 {{-- MODAL --}}

@@ -34,7 +34,7 @@
                             <div class="side-about">
                                 <a href="">
                                     <i class="far fa-angle-double-right"></i>
-                                    <span>more links</span>
+                                    <a href="https://ffm.to/anntypi-love" target="_blank">more links</a>
                                 </a>
                             </div>
                         </div>
